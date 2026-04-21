@@ -1,0 +1,113 @@
+Overview
+Build an intelligent receipt processing and querying system that can ingest receipt data, vectorize it for semantic search, and answer natural language queries about spending patterns. We will be providing you with 100 receipts, your job us to chunk them out and provide a simple UI (chat window) where I can ask questions about the data set to test speed and accuracy of the indexing you have done. We will provide some sample questions that I might ask the system.
+Core Requirements
+1. Data Ingestion & Parsing
+•	Extract structured data from receipt text files
+•	Parse key fields: merchant, date, items, prices, totals, categories
+•	Handle various receipt formats gracefully
+•	Extract metadata (payment method, location, discounts, etc.)
+2. Chunking Strategy
+Design and implement a chunking strategy that balances:
+•	Granularity (receipt-level vs. item-level)
+•	Context preservation
+•	Query performance
+•	Document your chunking decision and reasoning
+3. Vector Database Setup
+Use Pinecone or LangChain with your choice of vector store to:
+•	Store embeddings with rich metadata
+•	Support hybrid search (vector + metadata filtering)
+•	Enable efficient querying
+4. Natural Language Query Interface
+Implement a system that can answer queries like:
+Test Questions
+•	"How much did I spend in January 2024?"
+•	"What did I buy last week?"
+•	"Show me all receipts from December"
+•	"Find all Whole Foods receipts"
+•	"How much have I spent at coffee shops?"
+•	"What's my total spending at restaurants?"
+•	"Show me all electronics purchases"
+•	"Find receipts with warranty information"
+•	"What pharmacy items did I buy?"
+•	"List all groceries over $5"
+Semantic Understanding:
+•	"Find health-related purchases" (should find CVS + vitamins from other stores)
+•	"Show me treats I bought" (should find: candy, ice cream, baked goods)
+Deliverables
+1. Working Code
+•	Clean, well-organized Python codebase
+•	Clear separation of concerns (ingestion, embedding, querying)
+•	Requirements.txt or pyproject.toml with dependencies
+2. Documentation (README.md)
+Required sections:
+•	Setup instructions
+•	Architecture overview with diagram
+•	Chunking strategy explanation (critical!)
+•	How to run the system
+•	Example queries and expected outputs
+•	Design decisions and trade-offs
+•	Known limitations
+•	You can host it on a VPS of choice
+4. Test Results
+Show that your system can handle:
+•	At least 10 of the example queries listed above
+•	Different query types (temporal, merchant, category, complex)
+•	Edge cases (returns, multi-item queries)
+Evaluation Criteria
+Technical Implementation (40%)
+•	Code quality and organization
+•	Proper use of LangChain/Pinecone
+•	Error handling and edge cases
+•	Embedding quality
+Chunking Strategy (25%)
+•	Clear explanation of approach
+•	Justification for design decisions
+•	How context is preserved
+•	Trade-offs considered
+Query Capabilities (25%)
+•	Accuracy of results
+•	Range of query types supported
+•	Hybrid search implementation
+•	LLM integration for query understanding
+Documentation (10%)
+•	Setup clarity
+•	Architecture explanation
+•	Example usage
+•	Design decisions
+Bonus Points
+•	Handling OCR (if you want to work with actual images)
+•	Category auto-tagging using LLM
+•	Spending analytics/visualization
+•	Multi-modal search capabilities
+•	Conversation history for follow-up queries
+•	Handling ambiguous queries gracefully
+Technology Stack
+Required:
+•	Python 3.9+
+•	LangChain OR direct Pinecone SDK
+•	OpenAI API (or other LLM provider)
+Recommended:
+•	OpenAI embeddings (text-embedding-3-small/large)
+•	Pinecone for vector storage
+•	Pydantic for data models
+•	Python-dateutil for date parsing
+Optional:
+•	FastAPI (for API)
+•	Streamlit (for UI)
+•	Pandas (for analytics)
+Red Flags:
+•	Only using vector search (ignoring metadata filtering)
+•	Not explaining chunking decision
+•	Hardcoding merchant names instead of semantic matching
+•	Poor handling of dates/temporal queries
+•	No aggregation support
+•	Messy, uncommented code
+Format Variety
+The receipts intentionally vary in:
+•	Date formats (MM/DD/YYYY vs DD/MM/YYYY)
+•	Item layouts (detailed vs. simple)
+•	Tax handling (inclusive vs. separate)
+•	Discounts and loyalty programs
+•	Payment methods (cash, credit, debit, Apple Pay, etc.)
+•	Special features (tips, delivery fees, warranties, returns)
+

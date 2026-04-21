@@ -1,0 +1,2430 @@
+{
+  "receipts": {
+    "receipt_001": {
+      "source_file": "Notes/receipt_samples_100/receipt_001_grocery_20231107.txt",
+      "receipt_hash": "cf1a139cca812cccabfa2687eb97630defb755d6",
+      "chunk_ids": [
+        "receipt_001_receipt",
+        "receipt_001_receipt_001_item_1",
+        "receipt_001_receipt_001_item_2",
+        "receipt_001_receipt_001_item_3",
+        "receipt_001_receipt_001_item_4",
+        "receipt_001_receipt_001_item_5",
+        "receipt_001_receipt_001_item_6"
+      ],
+      "chunk_hashes": {
+        "receipt_001_receipt": "6cbb32b749ed0a6f4adeb2afd5771e4eed353bcc",
+        "receipt_001_receipt_001_item_1": "423b38cfde2118efae368d5e3c7af46b9a0cffc4",
+        "receipt_001_receipt_001_item_2": "01c0f2060c1e5d047309f655383170c1ae6a6220",
+        "receipt_001_receipt_001_item_3": "02642617d4f2d4a30b063c044a1739283556e5d0",
+        "receipt_001_receipt_001_item_4": "b85b179f8d967866e037892267802657bef3b43b",
+        "receipt_001_receipt_001_item_5": "4d298662319418b8e35f8b4aee0f478b44b60d9a",
+        "receipt_001_receipt_001_item_6": "2fbfa4d2f40a607d2deb60bd366a1ced5044a6aa"
+      }
+    },
+    "receipt_002": {
+      "source_file": "Notes/receipt_samples_100/receipt_002_grocery_20240124.txt",
+      "receipt_hash": "c4d26188b549bf78e8ca29ba9c7c03626186825f",
+      "chunk_ids": [
+        "receipt_002_receipt",
+        "receipt_002_receipt_002_item_1",
+        "receipt_002_receipt_002_item_2",
+        "receipt_002_receipt_002_item_3",
+        "receipt_002_receipt_002_item_4",
+        "receipt_002_receipt_002_item_5",
+        "receipt_002_receipt_002_item_6",
+        "receipt_002_receipt_002_item_7",
+        "receipt_002_receipt_002_item_8",
+        "receipt_002_receipt_002_item_9",
+        "receipt_002_receipt_002_item_10",
+        "receipt_002_receipt_002_item_11",
+        "receipt_002_receipt_002_item_12",
+        "receipt_002_receipt_002_item_13",
+        "receipt_002_receipt_002_item_14",
+        "receipt_002_receipt_002_item_15",
+        "receipt_002_receipt_002_item_16"
+      ],
+      "chunk_hashes": {
+        "receipt_002_receipt": "28eadec6c501330311ae01e5f41be6658001d9f6",
+        "receipt_002_receipt_002_item_1": "0cfeeed2facb13a1838b2b1465edd777c912d0c8",
+        "receipt_002_receipt_002_item_2": "dbd0a10f0fb9e0d7b89bf80d3b6a83561a1cc991",
+        "receipt_002_receipt_002_item_3": "9cc58463dc600f4f065797d55c56f82e67671b1b",
+        "receipt_002_receipt_002_item_4": "5c638a9e455a2e2c0ab42fafcde066c58c58e8c4",
+        "receipt_002_receipt_002_item_5": "b5c5e83c18a01bd5e0cc48a5c2459d2b76ebef66",
+        "receipt_002_receipt_002_item_6": "f0255a8fc3688b549b016fe5a7e4d49c97ba50ef",
+        "receipt_002_receipt_002_item_7": "868a11b5d3893709efe0f2e903881dcf9ab6c2d5",
+        "receipt_002_receipt_002_item_8": "832834965abd81f2d256f93246a35efb563fe0fe",
+        "receipt_002_receipt_002_item_9": "77628884866a1099b9e9e337bcc1909614a73e96",
+        "receipt_002_receipt_002_item_10": "6f8622f52ad3784c58dc45bdc7145b79876a3a61",
+        "receipt_002_receipt_002_item_11": "8d791c112a1cb3660b9be5e693e2abae3e8cea18",
+        "receipt_002_receipt_002_item_12": "3638a9505ec33e8d360efca708ae7effaa4042d5",
+        "receipt_002_receipt_002_item_13": "4102eff0707d622bb9aa7e5cbd5487a12be68e6c",
+        "receipt_002_receipt_002_item_14": "6668b65a6b2a1b5a606676e3d00799db05e0300a",
+        "receipt_002_receipt_002_item_15": "e4847bea827a7d7627a00a6d55a597d9c7ae67c3",
+        "receipt_002_receipt_002_item_16": "570d837ad64b24e70dbfed2412f2893fe02fd4a5"
+      }
+    },
+    "receipt_003": {
+      "source_file": "Notes/receipt_samples_100/receipt_003_grocery_20231223.txt",
+      "receipt_hash": "5b5f0eb359fe25a9b0035cd8668ec3e2be430567",
+      "chunk_ids": [
+        "receipt_003_receipt",
+        "receipt_003_receipt_003_item_1",
+        "receipt_003_receipt_003_item_2",
+        "receipt_003_receipt_003_item_3",
+        "receipt_003_receipt_003_item_4",
+        "receipt_003_receipt_003_item_5",
+        "receipt_003_receipt_003_item_6",
+        "receipt_003_receipt_003_item_7",
+        "receipt_003_receipt_003_item_8",
+        "receipt_003_receipt_003_item_9",
+        "receipt_003_receipt_003_item_10",
+        "receipt_003_receipt_003_item_11",
+        "receipt_003_receipt_003_item_12",
+        "receipt_003_receipt_003_item_13",
+        "receipt_003_receipt_003_item_14",
+        "receipt_003_receipt_003_item_15",
+        "receipt_003_receipt_003_item_16"
+      ],
+      "chunk_hashes": {
+        "receipt_003_receipt": "0cb7540dadf7aae7e0c4467613ea4f1081a36895",
+        "receipt_003_receipt_003_item_1": "3db7ac30ba949d1cf705b40a182ad9a165483aae",
+        "receipt_003_receipt_003_item_2": "ca5ca272a0c784910531aadbc1b56ad5263ed51d",
+        "receipt_003_receipt_003_item_3": "053ab6bc5c0c17f7c3d15193789ce71c27e02643",
+        "receipt_003_receipt_003_item_4": "d880b775f40cf632f7c138de6d93b7daec2c0ef4",
+        "receipt_003_receipt_003_item_5": "887d6e9adba0d0ce5135392d92ed93150ef15119",
+        "receipt_003_receipt_003_item_6": "fd3ca8726dd8187bb441f08aecfaced4303c7700",
+        "receipt_003_receipt_003_item_7": "a833b1edca991e31ca2bb04c4eeb9bbab8499b10",
+        "receipt_003_receipt_003_item_8": "7b286ca7ad890867390a70175613b888b5678fe1",
+        "receipt_003_receipt_003_item_9": "fee037665ccc874922485cc8bb6e30efc2138dd5",
+        "receipt_003_receipt_003_item_10": "592d706463839a076afe567cbd45d21b42a36ca8",
+        "receipt_003_receipt_003_item_11": "514ca9812a61312bc381aae65d7f99a9c84fc969",
+        "receipt_003_receipt_003_item_12": "dd21c2823dd538b3c3cf9af5d8c59fa79c2e0222",
+        "receipt_003_receipt_003_item_13": "53da57582b7264a5b450710ef3c186ea8a27b834",
+        "receipt_003_receipt_003_item_14": "f1b85194cd410ab254a0008b1e5c38764b54f28c",
+        "receipt_003_receipt_003_item_15": "1597902ad2185cc1032c5532972ea492fe39d424",
+        "receipt_003_receipt_003_item_16": "3af115b0f66e7bdb444a839881f2bbca194a1c68"
+      }
+    },
+    "receipt_004": {
+      "source_file": "Notes/receipt_samples_100/receipt_004_grocery_20231209.txt",
+      "receipt_hash": "4d3f4d0369be13fd84b22b3f00b97fd6fd30fa55",
+      "chunk_ids": [
+        "receipt_004_receipt",
+        "receipt_004_receipt_004_item_1",
+        "receipt_004_receipt_004_item_2",
+        "receipt_004_receipt_004_item_3",
+        "receipt_004_receipt_004_item_4",
+        "receipt_004_receipt_004_item_5",
+        "receipt_004_receipt_004_item_6",
+        "receipt_004_receipt_004_item_7",
+        "receipt_004_receipt_004_item_8",
+        "receipt_004_receipt_004_item_9",
+        "receipt_004_receipt_004_item_10"
+      ],
+      "chunk_hashes": {
+        "receipt_004_receipt": "ea1cd797a522ec3b6138f0c511a210e73055261b",
+        "receipt_004_receipt_004_item_1": "5bf2527edc80fc42f911cce93cb747ebc877978f",
+        "receipt_004_receipt_004_item_2": "0fc34ccf65b5a58d52927b845c7c6513c3072d7f",
+        "receipt_004_receipt_004_item_3": "7630bda30a7a55429ac8048cb9a123a575d451a5",
+        "receipt_004_receipt_004_item_4": "07d90a53480c6e70107652e9e1b2bab4f18b03fd",
+        "receipt_004_receipt_004_item_5": "575de7570fc811f08b5c94483e377d15ff478058",
+        "receipt_004_receipt_004_item_6": "edd5b8c51285728114680694c170bc5230ece35e",
+        "receipt_004_receipt_004_item_7": "2662ccc856a1f91881d42299eb2063dd5d9b8ca3",
+        "receipt_004_receipt_004_item_8": "0e8ded8664f16ea7398856ee97791903f9de6730",
+        "receipt_004_receipt_004_item_9": "d187d1f1792ed1d9ad948285a7502f275b1b06be",
+        "receipt_004_receipt_004_item_10": "c39562d35719d7795bb46dd2417173a5ffe87bee"
+      }
+    },
+    "receipt_005": {
+      "source_file": "Notes/receipt_samples_100/receipt_005_grocery_20231124.txt",
+      "receipt_hash": "a084e9921372edb7917123ed327706cb3452afa4",
+      "chunk_ids": [
+        "receipt_005_receipt",
+        "receipt_005_receipt_005_item_1",
+        "receipt_005_receipt_005_item_2",
+        "receipt_005_receipt_005_item_3",
+        "receipt_005_receipt_005_item_4",
+        "receipt_005_receipt_005_item_5",
+        "receipt_005_receipt_005_item_6",
+        "receipt_005_receipt_005_item_7",
+        "receipt_005_receipt_005_item_8",
+        "receipt_005_receipt_005_item_9",
+        "receipt_005_receipt_005_item_10",
+        "receipt_005_receipt_005_item_11",
+        "receipt_005_receipt_005_item_12",
+        "receipt_005_receipt_005_item_13",
+        "receipt_005_receipt_005_item_14"
+      ],
+      "chunk_hashes": {
+        "receipt_005_receipt": "d004426a0f2a960a38f91f16b38f2eda1b43cc5b",
+        "receipt_005_receipt_005_item_1": "a3510c8eeb4a063b6a1c789521880cfaf2e01ebf",
+        "receipt_005_receipt_005_item_2": "d699a89e8c90815e6ab12210702f0f48275a12a9",
+        "receipt_005_receipt_005_item_3": "0f5dc25541ca986fb329346b51bf2da87aea5138",
+        "receipt_005_receipt_005_item_4": "7faa73bf6aab61c2d6392b761272a0dea453ba20",
+        "receipt_005_receipt_005_item_5": "0880dea16293c4b15ff37d9132853963e69c24ae",
+        "receipt_005_receipt_005_item_6": "ce5fd49001afe7d9e180954d37fb0ae1e50dd859",
+        "receipt_005_receipt_005_item_7": "863a086f8fcdf12a6c66b894793fd9f17b80f838",
+        "receipt_005_receipt_005_item_8": "827cf703701e427abd2decc9e125a85a329577f8",
+        "receipt_005_receipt_005_item_9": "5b07321fbb4be6928b8381267521df9eba92e77b",
+        "receipt_005_receipt_005_item_10": "023002e362efea786b5b93d0d7bfddf59f1d2a5e",
+        "receipt_005_receipt_005_item_11": "747c0e0e5ad372f14dea16390545f4d0db847757",
+        "receipt_005_receipt_005_item_12": "f92f068f6d4908186eb0c4e4f9487bd8e1025752",
+        "receipt_005_receipt_005_item_13": "59e83f67e416cc2c3d5685561d8a0fa114894b09",
+        "receipt_005_receipt_005_item_14": "d24e30912e88ef267d94e25ee7c10a2d63ba3436"
+      }
+    },
+    "receipt_006": {
+      "source_file": "Notes/receipt_samples_100/receipt_006_grocery_20240102.txt",
+      "receipt_hash": "df98bfb03a3b65c80d499890ca4ac23119491f82",
+      "chunk_ids": [
+        "receipt_006_receipt",
+        "receipt_006_receipt_006_item_1",
+        "receipt_006_receipt_006_item_2",
+        "receipt_006_receipt_006_item_3",
+        "receipt_006_receipt_006_item_4",
+        "receipt_006_receipt_006_item_5",
+        "receipt_006_receipt_006_item_6",
+        "receipt_006_receipt_006_item_7",
+        "receipt_006_receipt_006_item_8",
+        "receipt_006_receipt_006_item_9",
+        "receipt_006_receipt_006_item_10",
+        "receipt_006_receipt_006_item_11",
+        "receipt_006_receipt_006_item_12",
+        "receipt_006_receipt_006_item_13",
+        "receipt_006_receipt_006_item_14"
+      ],
+      "chunk_hashes": {
+        "receipt_006_receipt": "bd938c8a11b90efcb059a43799324e09375f2294",
+        "receipt_006_receipt_006_item_1": "61c002511b635be406b59a41c38c24b32f69688a",
+        "receipt_006_receipt_006_item_2": "fbbcaf0773d6e3ab6a012440a239b624a73ca4a7",
+        "receipt_006_receipt_006_item_3": "df157d80612fc778b315eade52c3ef7f8f463bb2",
+        "receipt_006_receipt_006_item_4": "0484cab12eb0857a62d07cd8672241c2d5d5fbc8",
+        "receipt_006_receipt_006_item_5": "3e1a5bc6a0b9c7ba506fb5651a009b625a8f7cc7",
+        "receipt_006_receipt_006_item_6": "b134bc862e310a6ff44af0629e4de67261cd240b",
+        "receipt_006_receipt_006_item_7": "2772dff8dda02b93c5c822c4d1fe0da0d03a7994",
+        "receipt_006_receipt_006_item_8": "0506b50d68996e492f1a509910871664f89afbbe",
+        "receipt_006_receipt_006_item_9": "b68b17383fca5e34eb628c56b54174a14f93e424",
+        "receipt_006_receipt_006_item_10": "780d7dec7c376c2428101cabf5c7bf7e4b9a365d",
+        "receipt_006_receipt_006_item_11": "91fffcf121cd34a02cd61f246d4b836662995f5f",
+        "receipt_006_receipt_006_item_12": "3d812ca44f3fe46d425d559c5d6131461b4ef164",
+        "receipt_006_receipt_006_item_13": "5a69da503f719f743a4f7388a39a812bc76c6a81",
+        "receipt_006_receipt_006_item_14": "c879b96e78d451678daadd753e5782e14cd06834"
+      }
+    },
+    "receipt_007": {
+      "source_file": "Notes/receipt_samples_100/receipt_007_grocery_20231208.txt",
+      "receipt_hash": "9b482aa8541fa601ceeae75aab5fb31f3cb65851",
+      "chunk_ids": [
+        "receipt_007_receipt",
+        "receipt_007_receipt_007_item_1",
+        "receipt_007_receipt_007_item_2",
+        "receipt_007_receipt_007_item_3",
+        "receipt_007_receipt_007_item_4",
+        "receipt_007_receipt_007_item_5",
+        "receipt_007_receipt_007_item_6",
+        "receipt_007_receipt_007_item_7",
+        "receipt_007_receipt_007_item_8",
+        "receipt_007_receipt_007_item_9",
+        "receipt_007_receipt_007_item_10",
+        "receipt_007_receipt_007_item_11",
+        "receipt_007_receipt_007_item_12",
+        "receipt_007_receipt_007_item_13",
+        "receipt_007_receipt_007_item_14",
+        "receipt_007_receipt_007_item_15",
+        "receipt_007_receipt_007_item_16"
+      ],
+      "chunk_hashes": {
+        "receipt_007_receipt": "d96f1cfb859f101a248cebe5c36984cf25957226",
+        "receipt_007_receipt_007_item_1": "2fb0d40a8029d1be931ae549338c4f61b75ea372",
+        "receipt_007_receipt_007_item_2": "4f7effd3ebeff8c16fa3e1cfce3cfdfde156c4bb",
+        "receipt_007_receipt_007_item_3": "ef2b0af39db1310d9e6a64f28259b0a8b49167c5",
+        "receipt_007_receipt_007_item_4": "6f0d6c20d4375a6cda2d17a54cc260c1557aadea",
+        "receipt_007_receipt_007_item_5": "c9e1e4126f23dcea3c6e1e88a57a610ef1da7f29",
+        "receipt_007_receipt_007_item_6": "5f1296b13d2df6749fb160353f289303445ec768",
+        "receipt_007_receipt_007_item_7": "13c03115487266ecdb73d48275bffb03564202f1",
+        "receipt_007_receipt_007_item_8": "cfbb44f2b12cb05320db6e8ae0379c93821b1228",
+        "receipt_007_receipt_007_item_9": "8d746d72574c2e8200efc7eecce7e9774fe41de3",
+        "receipt_007_receipt_007_item_10": "dfa6e00ec7aded97f6eb2333f54fa8fdeb8778b8",
+        "receipt_007_receipt_007_item_11": "e00237e347c2bb0fd4946edce5e584a010fa9143",
+        "receipt_007_receipt_007_item_12": "01629196663a84f442a777b227de5aff311b5822",
+        "receipt_007_receipt_007_item_13": "62a2aec4d8100ba3ac862eb96c690ec5cbcfed6a",
+        "receipt_007_receipt_007_item_14": "88985211c05ee99ba172783f07605a528abdfba4",
+        "receipt_007_receipt_007_item_15": "6cdd10fb870f59dc1abe96f9680b9fb8a2d6b1dd",
+        "receipt_007_receipt_007_item_16": "1bd83ac6554281281a0e63782f21bc0a524d5423"
+      }
+    },
+    "receipt_008": {
+      "source_file": "Notes/receipt_samples_100/receipt_008_grocery_20240111.txt",
+      "receipt_hash": "638ab28d693cb737b3d94f0bddd495debf3f58d8",
+      "chunk_ids": [
+        "receipt_008_receipt",
+        "receipt_008_receipt_008_item_1",
+        "receipt_008_receipt_008_item_2",
+        "receipt_008_receipt_008_item_3",
+        "receipt_008_receipt_008_item_4",
+        "receipt_008_receipt_008_item_5",
+        "receipt_008_receipt_008_item_6",
+        "receipt_008_receipt_008_item_7",
+        "receipt_008_receipt_008_item_8",
+        "receipt_008_receipt_008_item_9",
+        "receipt_008_receipt_008_item_10",
+        "receipt_008_receipt_008_item_11",
+        "receipt_008_receipt_008_item_12",
+        "receipt_008_receipt_008_item_13",
+        "receipt_008_receipt_008_item_14",
+        "receipt_008_receipt_008_item_15",
+        "receipt_008_receipt_008_item_16"
+      ],
+      "chunk_hashes": {
+        "receipt_008_receipt": "71823588e0230a3a3e6e20a33cef96aa4c69bf71",
+        "receipt_008_receipt_008_item_1": "613248762a1dfd683fe940877176c665c5e82e68",
+        "receipt_008_receipt_008_item_2": "22ad33d879aabc991c8d54faeee43c893b4f68a0",
+        "receipt_008_receipt_008_item_3": "47d6be01fdec8c2ed8a3aab34863644e91bd256b",
+        "receipt_008_receipt_008_item_4": "093681b6c5cf2b798c230e5764916e9baf6e85fa",
+        "receipt_008_receipt_008_item_5": "cdd18c311c204786320ee5d75a9526e49c092302",
+        "receipt_008_receipt_008_item_6": "9f95e501f8cbd2b4cd9765cdce9df1fe0994cf39",
+        "receipt_008_receipt_008_item_7": "8a51a1ab62ab6e0a2975c82e7e90da981671c882",
+        "receipt_008_receipt_008_item_8": "a971aa5d9006418e420f82892be5a8d7a1a34243",
+        "receipt_008_receipt_008_item_9": "ff5c3e64280009d1b335769bad8ec48763699a67",
+        "receipt_008_receipt_008_item_10": "8c343b3aca6277d4cfdda0749e782533d689ecf3",
+        "receipt_008_receipt_008_item_11": "2f2deed8dc81dc3566e19e506ea66e7e5c9a19bf",
+        "receipt_008_receipt_008_item_12": "4146a541f8b0618a299adadb74f5752209339be3",
+        "receipt_008_receipt_008_item_13": "26db4018f897b25487aa2a30539b1e8371fa4aad",
+        "receipt_008_receipt_008_item_14": "d5c94e6ed45640ee75a46c40517f7ca351e4a820",
+        "receipt_008_receipt_008_item_15": "4b3f41f64e97499c422cc06c75781e60b0611e81",
+        "receipt_008_receipt_008_item_16": "bc81fb6c4bbe451d47b496789108e99dcf1e44f6"
+      }
+    },
+    "receipt_009": {
+      "source_file": "Notes/receipt_samples_100/receipt_009_grocery_20231207.txt",
+      "receipt_hash": "7f6d8b52717a9a6e3bdc75a50bd35d9fbf096fcb",
+      "chunk_ids": [
+        "receipt_009_receipt",
+        "receipt_009_receipt_009_item_1",
+        "receipt_009_receipt_009_item_2",
+        "receipt_009_receipt_009_item_3",
+        "receipt_009_receipt_009_item_4",
+        "receipt_009_receipt_009_item_5",
+        "receipt_009_receipt_009_item_6",
+        "receipt_009_receipt_009_item_7",
+        "receipt_009_receipt_009_item_8",
+        "receipt_009_receipt_009_item_9"
+      ],
+      "chunk_hashes": {
+        "receipt_009_receipt": "2854e797a0253fc991989b33d81fe1fa77c462aa",
+        "receipt_009_receipt_009_item_1": "7f73422ac02b698570efd564b3ff92424ee8c4a1",
+        "receipt_009_receipt_009_item_2": "edfe911e8e147da2c06a40689c42cacd14c32b8d",
+        "receipt_009_receipt_009_item_3": "a6c169a056576e3fde197e969b0cbf785eb851ff",
+        "receipt_009_receipt_009_item_4": "50f09c096c8b5b75d003f31b5623ddb1d3dfc172",
+        "receipt_009_receipt_009_item_5": "1f7711cc57a1e584411f364b80e670e29ca41bf1",
+        "receipt_009_receipt_009_item_6": "a82cd7b276a9d2ec4451673239f88b1440b682ab",
+        "receipt_009_receipt_009_item_7": "6f0fce28641841ecec5820dcff2edf6487f76fc3",
+        "receipt_009_receipt_009_item_8": "f627bcd7d0d1a71a8eb54966ba825e83587e7b07",
+        "receipt_009_receipt_009_item_9": "e0706f349ae1c9c98fdaf9f33b03b6f9d9ea95dd"
+      }
+    },
+    "receipt_010": {
+      "source_file": "Notes/receipt_samples_100/receipt_010_grocery_20231210.txt",
+      "receipt_hash": "5d6a73f40e50a1bf8687d642ec92b9033c59c956",
+      "chunk_ids": [
+        "receipt_010_receipt",
+        "receipt_010_receipt_010_item_1",
+        "receipt_010_receipt_010_item_2",
+        "receipt_010_receipt_010_item_3",
+        "receipt_010_receipt_010_item_4",
+        "receipt_010_receipt_010_item_5",
+        "receipt_010_receipt_010_item_6",
+        "receipt_010_receipt_010_item_7",
+        "receipt_010_receipt_010_item_8",
+        "receipt_010_receipt_010_item_9"
+      ],
+      "chunk_hashes": {
+        "receipt_010_receipt": "cb0b9c041243811cb8b5ec7fbb295d3b89498a31",
+        "receipt_010_receipt_010_item_1": "1ffd813e059ddb22677293abaf47dab09c9bd8c0",
+        "receipt_010_receipt_010_item_2": "e5ccbf6e8ee00e476647f17712ae172614f21d5b",
+        "receipt_010_receipt_010_item_3": "c61b4b8b9bbc91c413b3a7c921dbcaf8855fcb4d",
+        "receipt_010_receipt_010_item_4": "e9045ba2c9c9a2be889c2cce65ec0091561e751f",
+        "receipt_010_receipt_010_item_5": "d3eabed7fd1a4a9fcda1f66171aabe01997d9abf",
+        "receipt_010_receipt_010_item_6": "20550523a084d3e5e252b4983174dcd0d961b1e8",
+        "receipt_010_receipt_010_item_7": "6dbc19f215ebe9d69398f7ee72ae5b0da86d5c51",
+        "receipt_010_receipt_010_item_8": "b35a028973a299af22f21459817bdb0fb9b54f41",
+        "receipt_010_receipt_010_item_9": "874960bbfa8f1e58e5687f2e74212f76c9466d46"
+      }
+    },
+    "receipt_011": {
+      "source_file": "Notes/receipt_samples_100/receipt_011_grocery_20240101.txt",
+      "receipt_hash": "c85a470ab39c69a76ef1c5480b154684f49ca35a",
+      "chunk_ids": [
+        "receipt_011_receipt",
+        "receipt_011_receipt_011_item_1",
+        "receipt_011_receipt_011_item_2",
+        "receipt_011_receipt_011_item_3",
+        "receipt_011_receipt_011_item_4",
+        "receipt_011_receipt_011_item_5",
+        "receipt_011_receipt_011_item_6",
+        "receipt_011_receipt_011_item_7",
+        "receipt_011_receipt_011_item_8",
+        "receipt_011_receipt_011_item_9",
+        "receipt_011_receipt_011_item_10",
+        "receipt_011_receipt_011_item_11"
+      ],
+      "chunk_hashes": {
+        "receipt_011_receipt": "cc7cc2365b4c5666c9cf490c519980136eccc0a2",
+        "receipt_011_receipt_011_item_1": "57bddaff8337e1f2c5552137f55afa3216400d5e",
+        "receipt_011_receipt_011_item_2": "737144c9551426037e4f146b752827d628da0e1a",
+        "receipt_011_receipt_011_item_3": "24f35a01326c38da4bf6e07c9c8d33688c8934dd",
+        "receipt_011_receipt_011_item_4": "dd833db678a684a26ecf6309eab6b102d53a8481",
+        "receipt_011_receipt_011_item_5": "b4000ad75536c181e959933f1928a3795307d451",
+        "receipt_011_receipt_011_item_6": "faaf291e1aee2a4f8af0916282acf7f540a1dfd9",
+        "receipt_011_receipt_011_item_7": "ec2ff238ef12dc9313a1a93ba6f64e9e2b785635",
+        "receipt_011_receipt_011_item_8": "9ce3feb9ae1a6fa2ea4b8213810ebb82744704a1",
+        "receipt_011_receipt_011_item_9": "f6381136e748f10393a6a4d501ab19ac8e8e58d7",
+        "receipt_011_receipt_011_item_10": "fdee5f27a2dfb3351210267304c5f9c68c0c6006",
+        "receipt_011_receipt_011_item_11": "ad72e4e903a9486390198c268c3bf68efce46b50"
+      }
+    },
+    "receipt_012": {
+      "source_file": "Notes/receipt_samples_100/receipt_012_grocery_20231213.txt",
+      "receipt_hash": "332d19f10acf21c4780cd5bd9fc8698132dda793",
+      "chunk_ids": [
+        "receipt_012_receipt",
+        "receipt_012_receipt_012_item_1",
+        "receipt_012_receipt_012_item_2",
+        "receipt_012_receipt_012_item_3",
+        "receipt_012_receipt_012_item_4",
+        "receipt_012_receipt_012_item_5",
+        "receipt_012_receipt_012_item_6",
+        "receipt_012_receipt_012_item_7",
+        "receipt_012_receipt_012_item_8",
+        "receipt_012_receipt_012_item_9",
+        "receipt_012_receipt_012_item_10",
+        "receipt_012_receipt_012_item_11",
+        "receipt_012_receipt_012_item_12",
+        "receipt_012_receipt_012_item_13",
+        "receipt_012_receipt_012_item_14",
+        "receipt_012_receipt_012_item_15"
+      ],
+      "chunk_hashes": {
+        "receipt_012_receipt": "d1b853bb08cada34e0ba6d2fde3ff52433f5af22",
+        "receipt_012_receipt_012_item_1": "33c882b3c376a70c7441e47d7280d939ac7fdf81",
+        "receipt_012_receipt_012_item_2": "763bf8a8d8554e76a0f9ee1006dc8aca959a56ce",
+        "receipt_012_receipt_012_item_3": "e2a17230887c55378aac973a7e8b0eae0ffcbb26",
+        "receipt_012_receipt_012_item_4": "a297a091b654850ff7b18750e4a9afcff09d9e55",
+        "receipt_012_receipt_012_item_5": "e521495a1c6726ed5489c0e6f22e329fa9452462",
+        "receipt_012_receipt_012_item_6": "da2f0f51dbcac051862117c5510fb55d91df02be",
+        "receipt_012_receipt_012_item_7": "e461215764fa7d31b223221c87550ff166df06d6",
+        "receipt_012_receipt_012_item_8": "748d1c275663b3fbc7916765d5e7f0c22c427971",
+        "receipt_012_receipt_012_item_9": "7d6d771c88515c672c42d17d9d82d734cdb525c2",
+        "receipt_012_receipt_012_item_10": "b547b8f5938354af5e534e654d0d71063c44adc7",
+        "receipt_012_receipt_012_item_11": "37f68067e91fbd045cb51badaf1f3cf41419c5d0",
+        "receipt_012_receipt_012_item_12": "0b427083a1b00e2df082d3c89c6a61538b60f74d",
+        "receipt_012_receipt_012_item_13": "b491375d634f90bb5e3009b0cb752a9094fcb16a",
+        "receipt_012_receipt_012_item_14": "039c045202e5d3de1d15b929d34c1a4a7b63dd70",
+        "receipt_012_receipt_012_item_15": "0a30c12b0fbe7afeb31a9356dfe1c461af9c8351"
+      }
+    },
+    "receipt_013": {
+      "source_file": "Notes/receipt_samples_100/receipt_013_grocery_20231204.txt",
+      "receipt_hash": "b702c88d592b9fecf90a4738034e3e207706571f",
+      "chunk_ids": [
+        "receipt_013_receipt",
+        "receipt_013_receipt_013_item_1",
+        "receipt_013_receipt_013_item_2",
+        "receipt_013_receipt_013_item_3",
+        "receipt_013_receipt_013_item_4",
+        "receipt_013_receipt_013_item_5",
+        "receipt_013_receipt_013_item_6",
+        "receipt_013_receipt_013_item_7",
+        "receipt_013_receipt_013_item_8",
+        "receipt_013_receipt_013_item_9",
+        "receipt_013_receipt_013_item_10",
+        "receipt_013_receipt_013_item_11",
+        "receipt_013_receipt_013_item_12",
+        "receipt_013_receipt_013_item_13"
+      ],
+      "chunk_hashes": {
+        "receipt_013_receipt": "970a1ad55a945e49a72174a5eb6049b9d64b8a96",
+        "receipt_013_receipt_013_item_1": "2edf1bc59dca3b4276b04c62ab0f3eb8596bda7d",
+        "receipt_013_receipt_013_item_2": "2bd662c9bfb25907d172f83aeabf49677ad00f60",
+        "receipt_013_receipt_013_item_3": "c3dbcd4e3daed850cf8476a8c8f74325387f211d",
+        "receipt_013_receipt_013_item_4": "83f678da74d7dabb47786304626c0b984864db1d",
+        "receipt_013_receipt_013_item_5": "1f4748f7d0cde108eb4cbd347cadb03369ad1c5a",
+        "receipt_013_receipt_013_item_6": "8c3e2343bb3f229b57d7e5bd1ea90ea625b8dfce",
+        "receipt_013_receipt_013_item_7": "909d3a1ccbdc46adac0f1c4506da80a364312e41",
+        "receipt_013_receipt_013_item_8": "a2cd1929ef55bcb06a764d2c82d8270859b5e30c",
+        "receipt_013_receipt_013_item_9": "18d234bc48979207b68cf1f21c81b226e93a6f14",
+        "receipt_013_receipt_013_item_10": "5f91ca6a6a6e252eb7cd61ebc2aac6c433b295a0",
+        "receipt_013_receipt_013_item_11": "caa338e36c8b1c4c3c9c4487f30b4d3d48374ca1",
+        "receipt_013_receipt_013_item_12": "9a87301c9dc17ce7a2fcdc12f2dfd1abbc3b35e8",
+        "receipt_013_receipt_013_item_13": "f72a1c6135119f28672d203a6da0b2f7d651589e"
+      }
+    },
+    "receipt_014": {
+      "source_file": "Notes/receipt_samples_100/receipt_014_grocery_20231125.txt",
+      "receipt_hash": "fe4e42af229a6fa95fb0c47fd5736d67d10068ec",
+      "chunk_ids": [
+        "receipt_014_receipt",
+        "receipt_014_receipt_014_item_1",
+        "receipt_014_receipt_014_item_2",
+        "receipt_014_receipt_014_item_3",
+        "receipt_014_receipt_014_item_4",
+        "receipt_014_receipt_014_item_5",
+        "receipt_014_receipt_014_item_6",
+        "receipt_014_receipt_014_item_7",
+        "receipt_014_receipt_014_item_8",
+        "receipt_014_receipt_014_item_9",
+        "receipt_014_receipt_014_item_10",
+        "receipt_014_receipt_014_item_11",
+        "receipt_014_receipt_014_item_12",
+        "receipt_014_receipt_014_item_13",
+        "receipt_014_receipt_014_item_14",
+        "receipt_014_receipt_014_item_15"
+      ],
+      "chunk_hashes": {
+        "receipt_014_receipt": "e8ce820035d1ba2ccdcdc4bee6e85842628288e3",
+        "receipt_014_receipt_014_item_1": "e47357bcc3134cbe0f4d064538281012f4bc17ad",
+        "receipt_014_receipt_014_item_2": "b5738a32eb19adfc5b9d67535bd205ed89aaf56c",
+        "receipt_014_receipt_014_item_3": "0ed73145f66464ab576dfab9d031b55d57b95c57",
+        "receipt_014_receipt_014_item_4": "66c888fd087a902f4b97076107772263afaf293b",
+        "receipt_014_receipt_014_item_5": "ba3932756df56a6f1392d22b4d161834eae3a3c2",
+        "receipt_014_receipt_014_item_6": "13f105c855cab0acbff2884f5de8bb3a104ab22e",
+        "receipt_014_receipt_014_item_7": "1c3b2ef31807e1a7daa6ec97c5baf9eb09e0f72e",
+        "receipt_014_receipt_014_item_8": "54584d5b7c67ac48a4dbdd91edd8e6707e225018",
+        "receipt_014_receipt_014_item_9": "d1079189f7b28f3ea5a099f0e19699915350f06d",
+        "receipt_014_receipt_014_item_10": "a6809fe75a76e5569c9c2a621d0beaee51a11318",
+        "receipt_014_receipt_014_item_11": "ae70ee8d2a22d1c2508510a2db963a795fe6c36e",
+        "receipt_014_receipt_014_item_12": "3d35e626f381d788eec5879bad805f4ce89a1df2",
+        "receipt_014_receipt_014_item_13": "8adbd961ac75c9dadebe85fab6970dc903edaa8d",
+        "receipt_014_receipt_014_item_14": "2829746eba1baedf13ce07963154de7f523d64ee",
+        "receipt_014_receipt_014_item_15": "f35a00e5a64c88fe722723c8bc6265bc20fd8175"
+      }
+    },
+    "receipt_015": {
+      "source_file": "Notes/receipt_samples_100/receipt_015_grocery_20231118.txt",
+      "receipt_hash": "0806291c89c1b33eefbb85678a17a6293752fd94",
+      "chunk_ids": [
+        "receipt_015_receipt",
+        "receipt_015_receipt_015_item_1",
+        "receipt_015_receipt_015_item_2",
+        "receipt_015_receipt_015_item_3",
+        "receipt_015_receipt_015_item_4",
+        "receipt_015_receipt_015_item_5",
+        "receipt_015_receipt_015_item_6",
+        "receipt_015_receipt_015_item_7",
+        "receipt_015_receipt_015_item_8",
+        "receipt_015_receipt_015_item_9",
+        "receipt_015_receipt_015_item_10",
+        "receipt_015_receipt_015_item_11",
+        "receipt_015_receipt_015_item_12",
+        "receipt_015_receipt_015_item_13",
+        "receipt_015_receipt_015_item_14",
+        "receipt_015_receipt_015_item_15"
+      ],
+      "chunk_hashes": {
+        "receipt_015_receipt": "df429b87dccf61cef823fa3bea090b3a3ae29c8b",
+        "receipt_015_receipt_015_item_1": "1b47f0ecf3b1b7e29771fbb11b117a39fde9892f",
+        "receipt_015_receipt_015_item_2": "63c6c57891c875d27f9030963005bc9b03f77004",
+        "receipt_015_receipt_015_item_3": "fa5bde0853f1059fb38c46b845d9a8eeb653c495",
+        "receipt_015_receipt_015_item_4": "09b10e6965016f80fdfaf1f92365cd4a1e103391",
+        "receipt_015_receipt_015_item_5": "4afdcc180bbd726263037fd0d224b5d7d8656e2a",
+        "receipt_015_receipt_015_item_6": "2f8b730f436e4e68b0f3e1c34f28e2097576a11c",
+        "receipt_015_receipt_015_item_7": "b9faeff2e333b230d465a0b95f25be8cdec9baaa",
+        "receipt_015_receipt_015_item_8": "bc3a82ddd2b2aece4a47f24a9144dba5f7940a38",
+        "receipt_015_receipt_015_item_9": "7768412936aed7a7c957b109b9bc3259c6ba91f5",
+        "receipt_015_receipt_015_item_10": "0cd201c910af8a0d3f2dfded14663ffa70d80f65",
+        "receipt_015_receipt_015_item_11": "8d10a54a5651aa56ef3c2532ba5b7cb62787870b",
+        "receipt_015_receipt_015_item_12": "c1eb81c28c9af410abc08f4395df005b2927a52c",
+        "receipt_015_receipt_015_item_13": "c8c3b75feff03f6facc0b53af2d3c672aea1165b",
+        "receipt_015_receipt_015_item_14": "7113bcef3a00f242761d9cfb5b1109d4d74189a8",
+        "receipt_015_receipt_015_item_15": "e7c4557f9f904bb13da8d7c2502a7a75113bc89f"
+      }
+    },
+    "receipt_016": {
+      "source_file": "Notes/receipt_samples_100/receipt_016_grocery_20231224.txt",
+      "receipt_hash": "85261144e685d3d2623ad147cfd612e9c6d0be23",
+      "chunk_ids": [
+        "receipt_016_receipt",
+        "receipt_016_receipt_016_item_1",
+        "receipt_016_receipt_016_item_2",
+        "receipt_016_receipt_016_item_3",
+        "receipt_016_receipt_016_item_4",
+        "receipt_016_receipt_016_item_5",
+        "receipt_016_receipt_016_item_6",
+        "receipt_016_receipt_016_item_7",
+        "receipt_016_receipt_016_item_8"
+      ],
+      "chunk_hashes": {
+        "receipt_016_receipt": "9055dc68e45403975f97aab176eea0ece07ea803",
+        "receipt_016_receipt_016_item_1": "21a3d9c84fbf373863cf06f9a0e7ea6e2e28824f",
+        "receipt_016_receipt_016_item_2": "00a0c47290ee0fc3245bb80e1228380c7b50166a",
+        "receipt_016_receipt_016_item_3": "1551600c44699006ba026253dd596388c496d41a",
+        "receipt_016_receipt_016_item_4": "0f8a7b246c5f5f7d8450fc107e3cde18059e390f",
+        "receipt_016_receipt_016_item_5": "d487278931633ccee977b7debdc27bf1dde77478",
+        "receipt_016_receipt_016_item_6": "4666197b35f28b5ebd89e0d22969f8747733e831",
+        "receipt_016_receipt_016_item_7": "2bd5c5a675a20dc80a85961485b9961887b0aa02",
+        "receipt_016_receipt_016_item_8": "f7a56fb45d110d2ef60bad1b1edb83c73ea26ae6"
+      }
+    },
+    "receipt_017": {
+      "source_file": "Notes/receipt_samples_100/receipt_017_grocery_20231112.txt",
+      "receipt_hash": "1f36a2fedc8057ed2229b19e5eb80914cd7ba39f",
+      "chunk_ids": [
+        "receipt_017_receipt",
+        "receipt_017_receipt_017_item_1",
+        "receipt_017_receipt_017_item_2",
+        "receipt_017_receipt_017_item_3",
+        "receipt_017_receipt_017_item_4",
+        "receipt_017_receipt_017_item_5",
+        "receipt_017_receipt_017_item_6",
+        "receipt_017_receipt_017_item_7"
+      ],
+      "chunk_hashes": {
+        "receipt_017_receipt": "610a39b7f72b8812590959f5b065a0209ec873d4",
+        "receipt_017_receipt_017_item_1": "a2be27ee9d57a138e18fa9f7aa9375e40d7ce798",
+        "receipt_017_receipt_017_item_2": "0e79b23278bc59fcdad52c773a47f8bf38648761",
+        "receipt_017_receipt_017_item_3": "ed71e6955c14e33cfedff37c39ecccbf87a046dd",
+        "receipt_017_receipt_017_item_4": "da70010447bfb73dd65deaf976ad70734c420a5b",
+        "receipt_017_receipt_017_item_5": "5edf321e39e70b90f6c8c480f785f295729155a7",
+        "receipt_017_receipt_017_item_6": "81d744f62768f8d831cf788f2ebfd7d45759230a",
+        "receipt_017_receipt_017_item_7": "5a84fd2177b9342d0dea82c3e40fc84769f45ca5"
+      }
+    },
+    "receipt_018": {
+      "source_file": "Notes/receipt_samples_100/receipt_018_grocery_20240102.txt",
+      "receipt_hash": "f7955993f8e9d1a1aefb4d326684e2790aa3a72c",
+      "chunk_ids": [
+        "receipt_018_receipt",
+        "receipt_018_receipt_018_item_1",
+        "receipt_018_receipt_018_item_2",
+        "receipt_018_receipt_018_item_3",
+        "receipt_018_receipt_018_item_4",
+        "receipt_018_receipt_018_item_5",
+        "receipt_018_receipt_018_item_6",
+        "receipt_018_receipt_018_item_7",
+        "receipt_018_receipt_018_item_8",
+        "receipt_018_receipt_018_item_9"
+      ],
+      "chunk_hashes": {
+        "receipt_018_receipt": "ce5a3422d03afed48298ba4435b8e543b39b700e",
+        "receipt_018_receipt_018_item_1": "84f8c848e76e083d17e005c34904b758f60c0015",
+        "receipt_018_receipt_018_item_2": "0a7734dafd043f515114a8a71e27fc4ecdc8fdee",
+        "receipt_018_receipt_018_item_3": "44d3720d38b94e38093e5ad050338d2ec3631ea8",
+        "receipt_018_receipt_018_item_4": "6dcbe305cfb1fbc8a9b3921123983562a60ca9a3",
+        "receipt_018_receipt_018_item_5": "60b2aa1016d8134dea08e387a50798bcf3b1d683",
+        "receipt_018_receipt_018_item_6": "dd23a9641238392c1a69c2e80b159e5d92f046e9",
+        "receipt_018_receipt_018_item_7": "01fd7864af6aa30bbea3b0928bc6acf9da8d3602",
+        "receipt_018_receipt_018_item_8": "cf8c67271c255b555a63eff039754793121e9528",
+        "receipt_018_receipt_018_item_9": "05a719e1269e5ac1e07137f43bb2e9f0d8cf41eb"
+      }
+    },
+    "receipt_019": {
+      "source_file": "Notes/receipt_samples_100/receipt_019_grocery_20231203.txt",
+      "receipt_hash": "eaece98ad88ea134f71253fd10109177b2dc6f52",
+      "chunk_ids": [
+        "receipt_019_receipt",
+        "receipt_019_receipt_019_item_1",
+        "receipt_019_receipt_019_item_2",
+        "receipt_019_receipt_019_item_3",
+        "receipt_019_receipt_019_item_4",
+        "receipt_019_receipt_019_item_5",
+        "receipt_019_receipt_019_item_6",
+        "receipt_019_receipt_019_item_7",
+        "receipt_019_receipt_019_item_8",
+        "receipt_019_receipt_019_item_9"
+      ],
+      "chunk_hashes": {
+        "receipt_019_receipt": "38d916648afeb8c303e90600fd1be26683983963",
+        "receipt_019_receipt_019_item_1": "61b54ea1689c05d5c0627f640427861014043750",
+        "receipt_019_receipt_019_item_2": "a1cad1466843fffdc19e8d3f610ee193108bb9d7",
+        "receipt_019_receipt_019_item_3": "1e454f12bd41815f5cfaf7ac09f89a8f01c54444",
+        "receipt_019_receipt_019_item_4": "5dce6169692a335bef09a7befbbb922cf374f59e",
+        "receipt_019_receipt_019_item_5": "4dce8ae5172d17c0a9dbc7e7505967777e5670e3",
+        "receipt_019_receipt_019_item_6": "59cd41bd5eddfddd1c9e9ad6082669545ac6d6ed",
+        "receipt_019_receipt_019_item_7": "d9723e9063e8c70f51879872e63c78a7d23637fc",
+        "receipt_019_receipt_019_item_8": "9e13d0777fb5a75647e9f66e58727456907d3135",
+        "receipt_019_receipt_019_item_9": "5115d3a7bc53ef3c465427af5aa310c07f12a5e4"
+      }
+    },
+    "receipt_020": {
+      "source_file": "Notes/receipt_samples_100/receipt_020_grocery_20231221.txt",
+      "receipt_hash": "26d2a9ac5c646a0725fc9ed2cc5239ef0640f9bd",
+      "chunk_ids": [
+        "receipt_020_receipt",
+        "receipt_020_receipt_020_item_1",
+        "receipt_020_receipt_020_item_2",
+        "receipt_020_receipt_020_item_3",
+        "receipt_020_receipt_020_item_4",
+        "receipt_020_receipt_020_item_5",
+        "receipt_020_receipt_020_item_6"
+      ],
+      "chunk_hashes": {
+        "receipt_020_receipt": "b628ef05fc4fb5fd2d7cda3064f59dcddd5d2a71",
+        "receipt_020_receipt_020_item_1": "c3dd4340c81e2407b18b10e021bb826ef13d58ba",
+        "receipt_020_receipt_020_item_2": "d15298aa70fac8323784d44518b34020e88b20e4",
+        "receipt_020_receipt_020_item_3": "9a0bc92163f6a853c6d7703dc5ef4e8f0647c8de",
+        "receipt_020_receipt_020_item_4": "aeb6bacca66430565880ece2c096be7c2894bf37",
+        "receipt_020_receipt_020_item_5": "9956ea5166b6ec7f46f3571692be9b9a6452a8d3",
+        "receipt_020_receipt_020_item_6": "bb21bcd6918098704510cb404bf06238409ee92a"
+      }
+    },
+    "receipt_021": {
+      "source_file": "Notes/receipt_samples_100/receipt_021_grocery_20231112.txt",
+      "receipt_hash": "caffa40c9a14abde709f4a04fad098e49be2bea0",
+      "chunk_ids": [
+        "receipt_021_receipt",
+        "receipt_021_receipt_021_item_1",
+        "receipt_021_receipt_021_item_2",
+        "receipt_021_receipt_021_item_3",
+        "receipt_021_receipt_021_item_4",
+        "receipt_021_receipt_021_item_5",
+        "receipt_021_receipt_021_item_6",
+        "receipt_021_receipt_021_item_7",
+        "receipt_021_receipt_021_item_8",
+        "receipt_021_receipt_021_item_9",
+        "receipt_021_receipt_021_item_10",
+        "receipt_021_receipt_021_item_11",
+        "receipt_021_receipt_021_item_12",
+        "receipt_021_receipt_021_item_13",
+        "receipt_021_receipt_021_item_14"
+      ],
+      "chunk_hashes": {
+        "receipt_021_receipt": "d60f09b93d4ad095fcb41124dce665c2c50dfce6",
+        "receipt_021_receipt_021_item_1": "47ec935d7dc35228a780f20c8e80e5ad87557fa0",
+        "receipt_021_receipt_021_item_2": "a71e7c8cf49d42074e3828ba4320c7cf8713eeff",
+        "receipt_021_receipt_021_item_3": "a1e503983fbdfde74334965aa3e33bd73346f680",
+        "receipt_021_receipt_021_item_4": "69442a87246dcd9683c8be8eaba1e7a2612e6b24",
+        "receipt_021_receipt_021_item_5": "c9e83459c28a156f7d4eb394dcb145c0593beed2",
+        "receipt_021_receipt_021_item_6": "d42ea3f08a4178284fc4703ef2138547835704b1",
+        "receipt_021_receipt_021_item_7": "93416aacd0e054d351bf892a2189737144ab7ba2",
+        "receipt_021_receipt_021_item_8": "01bc4d81afa0a45ab275145258b9c48f93c0bbc3",
+        "receipt_021_receipt_021_item_9": "4e7e153d252840a83286d44df000ebcaa0732909",
+        "receipt_021_receipt_021_item_10": "240863627508bccd839928ec19fdae1bfa49d38f",
+        "receipt_021_receipt_021_item_11": "5c205b4167411ba8d0a7b1c303dafdd6bd9b1cbc",
+        "receipt_021_receipt_021_item_12": "50180c444d9d99d7fad7fd12387bd23dc2d8c5a6",
+        "receipt_021_receipt_021_item_13": "492faa20f0ffe71847fda4be8cc787842bf8d9b3",
+        "receipt_021_receipt_021_item_14": "279ce1d44ee1e430e8cb1ab0cfdbce3296d84ecb"
+      }
+    },
+    "receipt_022": {
+      "source_file": "Notes/receipt_samples_100/receipt_022_grocery_20231102.txt",
+      "receipt_hash": "984b191de530e70a9303e4cc2ea0f0546ff5376d",
+      "chunk_ids": [
+        "receipt_022_receipt",
+        "receipt_022_receipt_022_item_1",
+        "receipt_022_receipt_022_item_2",
+        "receipt_022_receipt_022_item_3",
+        "receipt_022_receipt_022_item_4",
+        "receipt_022_receipt_022_item_5",
+        "receipt_022_receipt_022_item_6",
+        "receipt_022_receipt_022_item_7",
+        "receipt_022_receipt_022_item_8",
+        "receipt_022_receipt_022_item_9",
+        "receipt_022_receipt_022_item_10",
+        "receipt_022_receipt_022_item_11",
+        "receipt_022_receipt_022_item_12",
+        "receipt_022_receipt_022_item_13",
+        "receipt_022_receipt_022_item_14",
+        "receipt_022_receipt_022_item_15"
+      ],
+      "chunk_hashes": {
+        "receipt_022_receipt": "ccab50caa0d0fcf0dffb9a3d22b6a0e3c91b3133",
+        "receipt_022_receipt_022_item_1": "a124d5f8f81e5ee22cc7f6f1243f03a15f652c59",
+        "receipt_022_receipt_022_item_2": "ec54166c54dbec567cc378b15358d7d7cb310cd3",
+        "receipt_022_receipt_022_item_3": "47184a3c627ea3634d18b701a04a5e022121cf62",
+        "receipt_022_receipt_022_item_4": "e558d9538ff03c2eb7a1e4c9ef53ebf8d3ceffdf",
+        "receipt_022_receipt_022_item_5": "216e8e87fd56462898852bc47b65d5d0b1ddc328",
+        "receipt_022_receipt_022_item_6": "491e9b22c7d056fdfe62bc5cefd89c2a4ea1e657",
+        "receipt_022_receipt_022_item_7": "0af262393ba0a1e4de7b6b1ccc33235400616333",
+        "receipt_022_receipt_022_item_8": "2af09df992c69080d21a0b36b7fdf23fb8e57ebe",
+        "receipt_022_receipt_022_item_9": "1b489970a1cabf8030021ff4f288cb9be2d12ade",
+        "receipt_022_receipt_022_item_10": "1054c2335cd68b567650b51bf5e4a9156bafb2a6",
+        "receipt_022_receipt_022_item_11": "83c817bd0f0f27cbe0ba12bb2d18c984942f0e8a",
+        "receipt_022_receipt_022_item_12": "e39da91d66b209085bea5b039e060b06eead0da9",
+        "receipt_022_receipt_022_item_13": "909d0932591bb35b018bb85f1bb034ec1d5ccf3d",
+        "receipt_022_receipt_022_item_14": "61fa273903ba17d1af72fd1786efb72c3ed16e95",
+        "receipt_022_receipt_022_item_15": "d8b1643216a809d76d98ecb27ee4cd6775f8df45"
+      }
+    },
+    "receipt_023": {
+      "source_file": "Notes/receipt_samples_100/receipt_023_grocery_20231124.txt",
+      "receipt_hash": "0715539de6e57acc340fb718179d5a1ea9dad5b4",
+      "chunk_ids": [
+        "receipt_023_receipt",
+        "receipt_023_receipt_023_item_1",
+        "receipt_023_receipt_023_item_2",
+        "receipt_023_receipt_023_item_3",
+        "receipt_023_receipt_023_item_4",
+        "receipt_023_receipt_023_item_5",
+        "receipt_023_receipt_023_item_6",
+        "receipt_023_receipt_023_item_7",
+        "receipt_023_receipt_023_item_8",
+        "receipt_023_receipt_023_item_9",
+        "receipt_023_receipt_023_item_10",
+        "receipt_023_receipt_023_item_11",
+        "receipt_023_receipt_023_item_12"
+      ],
+      "chunk_hashes": {
+        "receipt_023_receipt": "5dca6233e5eea10d6d7dd0e2ed8bc9bde9df23e2",
+        "receipt_023_receipt_023_item_1": "6842980291eee8138f9abe1c93107045dc9d4b59",
+        "receipt_023_receipt_023_item_2": "2028cea636ff66d60eedc03873f617ed812fc469",
+        "receipt_023_receipt_023_item_3": "cc83b1fe679149862e90a0b34681d876f02bcdcb",
+        "receipt_023_receipt_023_item_4": "e51b4a8aeae976dcadac1117443301f891c40b88",
+        "receipt_023_receipt_023_item_5": "8f1668fe1c8ea07e0141c38b94ee82ae1bde5aa7",
+        "receipt_023_receipt_023_item_6": "b9f869526993b262b660ff403fc603ff95ed665e",
+        "receipt_023_receipt_023_item_7": "8459fd728b042b75a4f13d8ea405bc9ba929e67e",
+        "receipt_023_receipt_023_item_8": "562b2ebe0b2e825a710345069c7103e3ad8f1fbd",
+        "receipt_023_receipt_023_item_9": "6f45bd173a1f29212568034b7bf48c0b1aaa5c40",
+        "receipt_023_receipt_023_item_10": "de712476c8b78878299f804da16cacc75503a207",
+        "receipt_023_receipt_023_item_11": "90cf7157f4c9bdf5023fd401ac86e345c752b7e6",
+        "receipt_023_receipt_023_item_12": "0b5989fd1dd83c9f2283d420d08ff9b4f3a5e73f"
+      }
+    },
+    "receipt_024": {
+      "source_file": "Notes/receipt_samples_100/receipt_024_grocery_20240121.txt",
+      "receipt_hash": "0ca6c1ea9ff5563ca0b6618c8f2317015b0f155d",
+      "chunk_ids": [
+        "receipt_024_receipt",
+        "receipt_024_receipt_024_item_1",
+        "receipt_024_receipt_024_item_2",
+        "receipt_024_receipt_024_item_3",
+        "receipt_024_receipt_024_item_4",
+        "receipt_024_receipt_024_item_5",
+        "receipt_024_receipt_024_item_6",
+        "receipt_024_receipt_024_item_7",
+        "receipt_024_receipt_024_item_8",
+        "receipt_024_receipt_024_item_9",
+        "receipt_024_receipt_024_item_10",
+        "receipt_024_receipt_024_item_11",
+        "receipt_024_receipt_024_item_12"
+      ],
+      "chunk_hashes": {
+        "receipt_024_receipt": "123a2fcc530534b04b5b013a00d0327438fc8785",
+        "receipt_024_receipt_024_item_1": "42662c989269398b9bc5cad23d3627b1a20a9fc6",
+        "receipt_024_receipt_024_item_2": "5586cf2801970d1af9cbe06c5752291453035206",
+        "receipt_024_receipt_024_item_3": "0272b040859e18d8af86fb1ba7ddb8bc78a05775",
+        "receipt_024_receipt_024_item_4": "c89201939480f8f37d774e4ba17f63abcee5ff57",
+        "receipt_024_receipt_024_item_5": "868b3177f73a848b453298841fdb5b9b8dd0daa5",
+        "receipt_024_receipt_024_item_6": "b1ed477b20c94093f8f7ae2a17fd5b835fe9f6d3",
+        "receipt_024_receipt_024_item_7": "c29a02878f5c174dcd49a0a8ac338040f0b0f481",
+        "receipt_024_receipt_024_item_8": "6feee6b4de79ec20103c7895b63a4baf79e020f5",
+        "receipt_024_receipt_024_item_9": "a8b42c79abf1c26294009fab28dfde3032dcef98",
+        "receipt_024_receipt_024_item_10": "0a56d3ab0e30d877d95a189c0de096c330dc782b",
+        "receipt_024_receipt_024_item_11": "e614d37fdee71fb9704184dc2e16c0953bfb8105",
+        "receipt_024_receipt_024_item_12": "29435f48aa428b74bca04a078b737ca3359dfd0c"
+      }
+    },
+    "receipt_025": {
+      "source_file": "Notes/receipt_samples_100/receipt_025_grocery_20231103.txt",
+      "receipt_hash": "c934ce8f169702f84d195eb5f9791320c7d7534e",
+      "chunk_ids": [
+        "receipt_025_receipt",
+        "receipt_025_receipt_025_item_1",
+        "receipt_025_receipt_025_item_2",
+        "receipt_025_receipt_025_item_3",
+        "receipt_025_receipt_025_item_4",
+        "receipt_025_receipt_025_item_5",
+        "receipt_025_receipt_025_item_6",
+        "receipt_025_receipt_025_item_7",
+        "receipt_025_receipt_025_item_8",
+        "receipt_025_receipt_025_item_9"
+      ],
+      "chunk_hashes": {
+        "receipt_025_receipt": "03f47199c7ebe0f6312f44270a14427a2e0df4a0",
+        "receipt_025_receipt_025_item_1": "8a9b1be16702605220a4b342c42f8290a3299b52",
+        "receipt_025_receipt_025_item_2": "28db5a332ce36c4ef4ad3bebcf5f74eed1a64dfe",
+        "receipt_025_receipt_025_item_3": "2ff7e46016060d8262d04fc4baf455c34a9369fd",
+        "receipt_025_receipt_025_item_4": "601f75f9bc7ad68cf464669bbfd12899ab9e48f7",
+        "receipt_025_receipt_025_item_5": "3c169b6b3d6e531f289dce734407d2e2fbad2b11",
+        "receipt_025_receipt_025_item_6": "e257866d8a303d86a3fc1695fe55efcdfd31e499",
+        "receipt_025_receipt_025_item_7": "743574b609dec4f7c2fe68f4aa1fc29a01d7744f",
+        "receipt_025_receipt_025_item_8": "47213a4fb85f54847d819d9127e6a44ffffd7ac8",
+        "receipt_025_receipt_025_item_9": "33e9434e9aaa31d9fb64d41cfc1ea79f08186f4b"
+      }
+    },
+    "receipt_026": {
+      "source_file": "Notes/receipt_samples_100/receipt_026_restaurant_20240129.txt",
+      "receipt_hash": "7dca7ef22751a72c847d353ed4c043edf449a400",
+      "chunk_ids": [
+        "receipt_026_receipt",
+        "receipt_026_receipt_026_item_1",
+        "receipt_026_receipt_026_item_2",
+        "receipt_026_receipt_026_item_3",
+        "receipt_026_receipt_026_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_026_receipt": "5d07435bb8c3a076c959aa30bc1ab8cfe0885239",
+        "receipt_026_receipt_026_item_1": "e844f4b5f3ba7d9006680d9d215c3c39344b0454",
+        "receipt_026_receipt_026_item_2": "55223fe94647acb3fd512127f6a420510ae9eddd",
+        "receipt_026_receipt_026_item_3": "d730c8e011c77e67f9f851db7c4856aef8836c2b",
+        "receipt_026_receipt_026_item_4": "b899ec3028867a8bebca200116cbd241f51223ad"
+      }
+    },
+    "receipt_027": {
+      "source_file": "Notes/receipt_samples_100/receipt_027_restaurant_20240110.txt",
+      "receipt_hash": "89160a222f0360fa8e4da3364a4820e95b1cea3c",
+      "chunk_ids": [
+        "receipt_027_receipt",
+        "receipt_027_receipt_027_item_1",
+        "receipt_027_receipt_027_item_2",
+        "receipt_027_receipt_027_item_3",
+        "receipt_027_receipt_027_item_4",
+        "receipt_027_receipt_027_item_5"
+      ],
+      "chunk_hashes": {
+        "receipt_027_receipt": "627c3f1e74fd139d1bff272d2fcf83256550e70e",
+        "receipt_027_receipt_027_item_1": "c9bfde9826f0b6cad44f492a0d2907575db7f269",
+        "receipt_027_receipt_027_item_2": "14f11ef2a5c2f793d5d13dc20422822b6f025820",
+        "receipt_027_receipt_027_item_3": "ab1eeb8faf6552db03daa8e40a56bb2d9b663f49",
+        "receipt_027_receipt_027_item_4": "879fc0977b8cc4f7a25c98e3af274d24468b3c9e",
+        "receipt_027_receipt_027_item_5": "5443255f40b8f4a252cce5961f91bf4eb89a58d0"
+      }
+    },
+    "receipt_028": {
+      "source_file": "Notes/receipt_samples_100/receipt_028_restaurant_20240113.txt",
+      "receipt_hash": "cccae598f16d7db20f5b9867d0bebc0a952e7ac1",
+      "chunk_ids": [
+        "receipt_028_receipt",
+        "receipt_028_receipt_028_item_1",
+        "receipt_028_receipt_028_item_2",
+        "receipt_028_receipt_028_item_3",
+        "receipt_028_receipt_028_item_4",
+        "receipt_028_receipt_028_item_5"
+      ],
+      "chunk_hashes": {
+        "receipt_028_receipt": "a23245cb15e5bb4aabd5ef7b5a06b8436d0431a7",
+        "receipt_028_receipt_028_item_1": "58d6a2a9a2d17a5b98dc6325c87d4bf33a6b21a6",
+        "receipt_028_receipt_028_item_2": "2ae0c41b0ae018698fbb401f2c284baa63ce31de",
+        "receipt_028_receipt_028_item_3": "48a8d36607769f544b7c2b8ffed7f4d3f3c3601a",
+        "receipt_028_receipt_028_item_4": "aeb483ef8462e0cdf0e8679f774fde005ee1b2dd",
+        "receipt_028_receipt_028_item_5": "acd9ff9bdba81208c69d6acf9360343b217b7228"
+      }
+    },
+    "receipt_029": {
+      "source_file": "Notes/receipt_samples_100/receipt_029_restaurant_20231102.txt",
+      "receipt_hash": "41077aacc4855f1bece51c5465c84eecc4610e7c",
+      "chunk_ids": [
+        "receipt_029_receipt",
+        "receipt_029_receipt_029_item_1",
+        "receipt_029_receipt_029_item_2",
+        "receipt_029_receipt_029_item_3",
+        "receipt_029_receipt_029_item_4",
+        "receipt_029_receipt_029_item_5",
+        "receipt_029_receipt_029_item_6"
+      ],
+      "chunk_hashes": {
+        "receipt_029_receipt": "13004d6fac6f67df61db9773ad39df2aa2e25c8d",
+        "receipt_029_receipt_029_item_1": "7c215e4c54038af22df9ab7e846d8549e2f6de75",
+        "receipt_029_receipt_029_item_2": "a0dfe52de48fc75d5ca211d98b25afa8db7d113c",
+        "receipt_029_receipt_029_item_3": "5a2e5e282b488b40f707a5922fb18d280a936d9a",
+        "receipt_029_receipt_029_item_4": "f0758652030ddf3798bac9a171ee55d267745ea7",
+        "receipt_029_receipt_029_item_5": "7b5a57e38b04b16a5fa1c14ea01c65b4a4f43dab",
+        "receipt_029_receipt_029_item_6": "09ab63f448613758a39c6f9cb9f483bcd18a28de"
+      }
+    },
+    "receipt_030": {
+      "source_file": "Notes/receipt_samples_100/receipt_030_restaurant_20231229.txt",
+      "receipt_hash": "cbc05bf5692a48eb8d905a91a0495e0950ee221f",
+      "chunk_ids": [
+        "receipt_030_receipt",
+        "receipt_030_receipt_030_item_1",
+        "receipt_030_receipt_030_item_2",
+        "receipt_030_receipt_030_item_3",
+        "receipt_030_receipt_030_item_4",
+        "receipt_030_receipt_030_item_5"
+      ],
+      "chunk_hashes": {
+        "receipt_030_receipt": "a4a9711994343849482afeced17078685a247324",
+        "receipt_030_receipt_030_item_1": "24c89c9262e65223671184d6d1a7f8bfd410e33d",
+        "receipt_030_receipt_030_item_2": "a81743e6dadaaea01e72a54a0c6e6e521c1b07f7",
+        "receipt_030_receipt_030_item_3": "541ce15a6761332d5b6dddcb0bd15d02fec4f444",
+        "receipt_030_receipt_030_item_4": "4c99d8262207d51ef33dab7f57d94080ef18bcd1",
+        "receipt_030_receipt_030_item_5": "cce985d1ffef6d3f89bf4ceab554ff3b4a48d883"
+      }
+    },
+    "receipt_031": {
+      "source_file": "Notes/receipt_samples_100/receipt_031_restaurant_20231101.txt",
+      "receipt_hash": "2ead48aa3e2b34ed4f949678b3f7b0e3b6dc7b29",
+      "chunk_ids": [
+        "receipt_031_receipt",
+        "receipt_031_receipt_031_item_1",
+        "receipt_031_receipt_031_item_2",
+        "receipt_031_receipt_031_item_3",
+        "receipt_031_receipt_031_item_4",
+        "receipt_031_receipt_031_item_5",
+        "receipt_031_receipt_031_item_6"
+      ],
+      "chunk_hashes": {
+        "receipt_031_receipt": "8b6d0933abcb9981d1c7f758a4ccaf77c05dcac0",
+        "receipt_031_receipt_031_item_1": "9ba2b91042de2db73c01e37c6bab072fc7fac1aa",
+        "receipt_031_receipt_031_item_2": "f13c204c8b1d2aa6227401a75322f77f01025b8a",
+        "receipt_031_receipt_031_item_3": "a838a98d497547a7e25fadb345dee233e603df2e",
+        "receipt_031_receipt_031_item_4": "4de603275d9bb6abc96ca33f80245e645e52842c",
+        "receipt_031_receipt_031_item_5": "f03274a05ef59f71d9b3fb27022075b20ca6894b",
+        "receipt_031_receipt_031_item_6": "e7720e7be515055ccea718ea880b30ebde5c05df"
+      }
+    },
+    "receipt_032": {
+      "source_file": "Notes/receipt_samples_100/receipt_032_restaurant_20231114.txt",
+      "receipt_hash": "8c35e6583af1256ef99662f5523e2ddcfa7075db",
+      "chunk_ids": [
+        "receipt_032_receipt",
+        "receipt_032_receipt_032_item_1",
+        "receipt_032_receipt_032_item_2",
+        "receipt_032_receipt_032_item_3",
+        "receipt_032_receipt_032_item_4",
+        "receipt_032_receipt_032_item_5",
+        "receipt_032_receipt_032_item_6",
+        "receipt_032_receipt_032_item_7"
+      ],
+      "chunk_hashes": {
+        "receipt_032_receipt": "0d1d4b95382bef38f12e89a24ce596a734f84a07",
+        "receipt_032_receipt_032_item_1": "4878fa12ec2b6cbe7270393659e6153bb96e1ebc",
+        "receipt_032_receipt_032_item_2": "938ed46c5ec86b369424f25a0f27acabcde759b2",
+        "receipt_032_receipt_032_item_3": "5741ca0e7a4d7d5243fadad1e8e2f1df4e09bea9",
+        "receipt_032_receipt_032_item_4": "b73eba95c1edfbc8768a97c624b57a4c345e14e8",
+        "receipt_032_receipt_032_item_5": "a33c7f116dc39f8d0510767b5bea888206f5451b",
+        "receipt_032_receipt_032_item_6": "629aae91cde9bf167c8cf83a64c1070390979bc9",
+        "receipt_032_receipt_032_item_7": "a883c9e61599f2b4186cc1bf4cf2572be53e5ed6"
+      }
+    },
+    "receipt_033": {
+      "source_file": "Notes/receipt_samples_100/receipt_033_restaurant_20231229.txt",
+      "receipt_hash": "f76718384facb745e5f480483f31edaa54a5a4dc",
+      "chunk_ids": [
+        "receipt_033_receipt",
+        "receipt_033_receipt_033_item_1",
+        "receipt_033_receipt_033_item_2",
+        "receipt_033_receipt_033_item_3",
+        "receipt_033_receipt_033_item_4",
+        "receipt_033_receipt_033_item_5",
+        "receipt_033_receipt_033_item_6"
+      ],
+      "chunk_hashes": {
+        "receipt_033_receipt": "945c13a80ed9be4736de44585d7c0fde1ddcbdd1",
+        "receipt_033_receipt_033_item_1": "71a1727aba3628737495a25064b929b1ad7b4390",
+        "receipt_033_receipt_033_item_2": "e981b81944fb014a9acaf0b2942d9a35f9a00fbc",
+        "receipt_033_receipt_033_item_3": "cf50af728d6651deeab87d04a580d58d9f83aa4a",
+        "receipt_033_receipt_033_item_4": "58fc3fe70c15ee0eaec0cffc8465e843ff69600e",
+        "receipt_033_receipt_033_item_5": "c23e993e80c4996a03aa3e6bd869bc6501f6b9ba",
+        "receipt_033_receipt_033_item_6": "cc3836a366e6796c42a521e63c18ef5721d33756"
+      }
+    },
+    "receipt_034": {
+      "source_file": "Notes/receipt_samples_100/receipt_034_restaurant_20231205.txt",
+      "receipt_hash": "eb554228f0c4dc6741f47ddfd9279e11730c0511",
+      "chunk_ids": [
+        "receipt_034_receipt",
+        "receipt_034_receipt_034_item_1",
+        "receipt_034_receipt_034_item_2",
+        "receipt_034_receipt_034_item_3",
+        "receipt_034_receipt_034_item_4",
+        "receipt_034_receipt_034_item_5",
+        "receipt_034_receipt_034_item_6",
+        "receipt_034_receipt_034_item_7"
+      ],
+      "chunk_hashes": {
+        "receipt_034_receipt": "85e30476ed1c16dfe854510a7d01e9816ab46dae",
+        "receipt_034_receipt_034_item_1": "2e95c424ffd2ad359f7426de0b1499f2ffd8870d",
+        "receipt_034_receipt_034_item_2": "adb2a41bbe8f81d2717bc63065fa7408b1061850",
+        "receipt_034_receipt_034_item_3": "ee0aebf7c7d99cefa9d065e60f7e19b83f40f428",
+        "receipt_034_receipt_034_item_4": "9c24db903f295cbe47e698c7f43b04fd34d7388a",
+        "receipt_034_receipt_034_item_5": "e851537c956f974ab828bcad195ad30924cfb9f3",
+        "receipt_034_receipt_034_item_6": "22339601246e112409e9de9e94f1cd36f634a134",
+        "receipt_034_receipt_034_item_7": "bc8b1ed7a7de8de4a887d02e24d3dbaac55c0d8d"
+      }
+    },
+    "receipt_035": {
+      "source_file": "Notes/receipt_samples_100/receipt_035_restaurant_20240125.txt",
+      "receipt_hash": "0c8aca4632dc42782cef0ecfe351fc2e110523be",
+      "chunk_ids": [
+        "receipt_035_receipt",
+        "receipt_035_receipt_035_item_1",
+        "receipt_035_receipt_035_item_2",
+        "receipt_035_receipt_035_item_3",
+        "receipt_035_receipt_035_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_035_receipt": "f8b30acd5d7de2f4e1a1159a1290b6824d14da00",
+        "receipt_035_receipt_035_item_1": "d5c711fb03cac05612c5cf3febe819377b968ed2",
+        "receipt_035_receipt_035_item_2": "e7d75981c423d57bf8a92ff1d4ee8d0f2b9cf9c1",
+        "receipt_035_receipt_035_item_3": "3bc91b5887ff75ff771de5f806badc9f82b7d0be",
+        "receipt_035_receipt_035_item_4": "42a6e65ee120965bdb4a3d48b13d50da51b8d5f0"
+      }
+    },
+    "receipt_036": {
+      "source_file": "Notes/receipt_samples_100/receipt_036_restaurant_20240116.txt",
+      "receipt_hash": "bd87711b52c1250b40fca7408352b8d797dbe4f8",
+      "chunk_ids": [
+        "receipt_036_receipt",
+        "receipt_036_receipt_036_item_1",
+        "receipt_036_receipt_036_item_2",
+        "receipt_036_receipt_036_item_3",
+        "receipt_036_receipt_036_item_4",
+        "receipt_036_receipt_036_item_5",
+        "receipt_036_receipt_036_item_6",
+        "receipt_036_receipt_036_item_7"
+      ],
+      "chunk_hashes": {
+        "receipt_036_receipt": "2ae5e93e3912e0558192028ab6ef71d7bbd4c62d",
+        "receipt_036_receipt_036_item_1": "fa8bd34bf2d3f45653ec39831cef6116a983e6d5",
+        "receipt_036_receipt_036_item_2": "fb1c8914f0542e64de11dcc621bbd08b5f17326e",
+        "receipt_036_receipt_036_item_3": "5dc1c0444267a2fa6c5e52caaf87cf6d77bee644",
+        "receipt_036_receipt_036_item_4": "053c8a3cb60877f81cd83536e22adc25f1bc0091",
+        "receipt_036_receipt_036_item_5": "1bd322e10dc37ff15a7c59e5f6dbd8670ce4fdc4",
+        "receipt_036_receipt_036_item_6": "6816cc2ee721b89c8028cbf3c5e5d923c9077019",
+        "receipt_036_receipt_036_item_7": "7e6cd0009e067b0f31231807a1a1cdf1a0602cf1"
+      }
+    },
+    "receipt_037": {
+      "source_file": "Notes/receipt_samples_100/receipt_037_restaurant_20231209.txt",
+      "receipt_hash": "be38e2c2e46712b6e39dd98c0624a6c4cc33a1b8",
+      "chunk_ids": [
+        "receipt_037_receipt",
+        "receipt_037_receipt_037_item_1",
+        "receipt_037_receipt_037_item_2",
+        "receipt_037_receipt_037_item_3"
+      ],
+      "chunk_hashes": {
+        "receipt_037_receipt": "5f92fa4a5b60d2ef96024b3e93997a3d13ef955c",
+        "receipt_037_receipt_037_item_1": "065e0f8bb680476352cc6cf036b7b800f3d79eb3",
+        "receipt_037_receipt_037_item_2": "3f96399da4dd0e3ec60ea14e89e6c98f27d3178c",
+        "receipt_037_receipt_037_item_3": "230935af01320971086ab195347665a133a6181e"
+      }
+    },
+    "receipt_038": {
+      "source_file": "Notes/receipt_samples_100/receipt_038_restaurant_20231112.txt",
+      "receipt_hash": "13313befa5d7e1f5b4a964ef41c7e8a9d4508e43",
+      "chunk_ids": [
+        "receipt_038_receipt",
+        "receipt_038_receipt_038_item_1",
+        "receipt_038_receipt_038_item_2",
+        "receipt_038_receipt_038_item_3",
+        "receipt_038_receipt_038_item_4",
+        "receipt_038_receipt_038_item_5",
+        "receipt_038_receipt_038_item_6",
+        "receipt_038_receipt_038_item_7"
+      ],
+      "chunk_hashes": {
+        "receipt_038_receipt": "95bd66110429e5795f928dcabf73fb8987b807e7",
+        "receipt_038_receipt_038_item_1": "1886c06325cd045cd1a49e15d56e2c4a07cddeb9",
+        "receipt_038_receipt_038_item_2": "7f17fa2da6a82b385b9ae3eb4ef3caa14d3b0ca6",
+        "receipt_038_receipt_038_item_3": "93a32074cc2c0f3b99faa672937cbe1d969a5e9e",
+        "receipt_038_receipt_038_item_4": "27daac210260ef67e129dadac56acc612b90ed2d",
+        "receipt_038_receipt_038_item_5": "2e14c0611fb22130c0b305c96b4d1e2d717ba58f",
+        "receipt_038_receipt_038_item_6": "f3470d1fd5836818e0af4be3c40a35cc4460f98b",
+        "receipt_038_receipt_038_item_7": "4780790a34c05f02e6031b51a6f7a1183071e38b"
+      }
+    },
+    "receipt_039": {
+      "source_file": "Notes/receipt_samples_100/receipt_039_restaurant_20231214.txt",
+      "receipt_hash": "abdce1cc6ab04adde313e67b6f6a070d3a5aa8e9",
+      "chunk_ids": [
+        "receipt_039_receipt",
+        "receipt_039_receipt_039_item_1",
+        "receipt_039_receipt_039_item_2",
+        "receipt_039_receipt_039_item_3"
+      ],
+      "chunk_hashes": {
+        "receipt_039_receipt": "b2c0e9fa22d228e72416f4550b47b910b6c3f475",
+        "receipt_039_receipt_039_item_1": "699c54894a4900f6ecd5c39b333f90702d2de1ef",
+        "receipt_039_receipt_039_item_2": "974d23cd3bcf817aa93ed7841ec26aed6a8ba8e9",
+        "receipt_039_receipt_039_item_3": "63f931521865a2c4bed26315eba7fe3e3ad84760"
+      }
+    },
+    "receipt_040": {
+      "source_file": "Notes/receipt_samples_100/receipt_040_restaurant_20231226.txt",
+      "receipt_hash": "a9c80fdbe7eac397b2ef64ace796dd53fe030637",
+      "chunk_ids": [
+        "receipt_040_receipt",
+        "receipt_040_receipt_040_item_1",
+        "receipt_040_receipt_040_item_2",
+        "receipt_040_receipt_040_item_3",
+        "receipt_040_receipt_040_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_040_receipt": "6b6d5b1605c7ffb1494ce00387d247583abfd6a0",
+        "receipt_040_receipt_040_item_1": "6ec7ff5803018297c2d1afbe8d7f2c10a430c8e1",
+        "receipt_040_receipt_040_item_2": "7873060a6f927642c386ed87b06607ae3c743bc9",
+        "receipt_040_receipt_040_item_3": "c933ceb0975dd9e8a615a484aae8e1e5b3a8b54d",
+        "receipt_040_receipt_040_item_4": "fe687ff70148afcd00876bb0715a143d77d302ad"
+      }
+    },
+    "receipt_041": {
+      "source_file": "Notes/receipt_samples_100/receipt_041_restaurant_20231202.txt",
+      "receipt_hash": "b9587d34e022b34aad1df6f2d590ceb0284ace67",
+      "chunk_ids": [
+        "receipt_041_receipt",
+        "receipt_041_receipt_041_item_1",
+        "receipt_041_receipt_041_item_2",
+        "receipt_041_receipt_041_item_3",
+        "receipt_041_receipt_041_item_4",
+        "receipt_041_receipt_041_item_5",
+        "receipt_041_receipt_041_item_6"
+      ],
+      "chunk_hashes": {
+        "receipt_041_receipt": "de76145342d96ee97c1e3cc156f18bc422a8c89d",
+        "receipt_041_receipt_041_item_1": "9c35f27b78be80d309bacdc0f1f9dd2a266fc1f9",
+        "receipt_041_receipt_041_item_2": "361ea9a4ca1b6a68f80a5611133e4f257268c3b5",
+        "receipt_041_receipt_041_item_3": "be29bc07565bf30b04f670e8233ebb5058023eed",
+        "receipt_041_receipt_041_item_4": "7692a6dfd997fc41c7c49df5ae3aa0d16c37f5c4",
+        "receipt_041_receipt_041_item_5": "93a06f6b1b2da99d53350b250fc52cb5718acdf8",
+        "receipt_041_receipt_041_item_6": "53ed78d9c6cb66620c03ad598353e068fcf63c09"
+      }
+    },
+    "receipt_042": {
+      "source_file": "Notes/receipt_samples_100/receipt_042_restaurant_20231230.txt",
+      "receipt_hash": "addd750a81ec85db9c69025d88578cd2b485c985",
+      "chunk_ids": [
+        "receipt_042_receipt",
+        "receipt_042_receipt_042_item_1",
+        "receipt_042_receipt_042_item_2",
+        "receipt_042_receipt_042_item_3",
+        "receipt_042_receipt_042_item_4",
+        "receipt_042_receipt_042_item_5",
+        "receipt_042_receipt_042_item_6",
+        "receipt_042_receipt_042_item_7"
+      ],
+      "chunk_hashes": {
+        "receipt_042_receipt": "ac06d334599d69b9535593a93b446cf06e568e04",
+        "receipt_042_receipt_042_item_1": "bb53a453dd22082ad6e84f5f0b274423615db871",
+        "receipt_042_receipt_042_item_2": "770a63ec220d4733025cb9672a3418e2ab1183ae",
+        "receipt_042_receipt_042_item_3": "5ecb41182ebb9576583fe1649dec91c5f48859b9",
+        "receipt_042_receipt_042_item_4": "51037e97f57de61b5b08de5579ea5f99006a3edf",
+        "receipt_042_receipt_042_item_5": "748c407e0557c9ba7c1f2cabfc095e56c24e241d",
+        "receipt_042_receipt_042_item_6": "ceb0e20566e4d4ba82652e39ccafa87c063155e4",
+        "receipt_042_receipt_042_item_7": "69e8da6f6bdc98398129e0be7302a2f5db7ec70b"
+      }
+    },
+    "receipt_043": {
+      "source_file": "Notes/receipt_samples_100/receipt_043_restaurant_20231111.txt",
+      "receipt_hash": "f5e8b8c746546f271327ff21732e72226a675bd7",
+      "chunk_ids": [
+        "receipt_043_receipt",
+        "receipt_043_receipt_043_item_1",
+        "receipt_043_receipt_043_item_2",
+        "receipt_043_receipt_043_item_3",
+        "receipt_043_receipt_043_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_043_receipt": "952dcbbc42445a6dde0a6efddfddc9782a142e4e",
+        "receipt_043_receipt_043_item_1": "dc65d96e1b73b8af7acdae33f3d147f2c5a9675c",
+        "receipt_043_receipt_043_item_2": "4911a3e0785ded4a23604b0a1379d474a8b74e7b",
+        "receipt_043_receipt_043_item_3": "bb5762b1a5b16ca299a3371b006527e6fd4f4a9c",
+        "receipt_043_receipt_043_item_4": "e6d7114b51ab09741c129bc20c3d6c0ea292700d"
+      }
+    },
+    "receipt_044": {
+      "source_file": "Notes/receipt_samples_100/receipt_044_restaurant_20231212.txt",
+      "receipt_hash": "e99532c5bfebf952dd75060360ec4928575578e1",
+      "chunk_ids": [
+        "receipt_044_receipt",
+        "receipt_044_receipt_044_item_1",
+        "receipt_044_receipt_044_item_2",
+        "receipt_044_receipt_044_item_3",
+        "receipt_044_receipt_044_item_4",
+        "receipt_044_receipt_044_item_5",
+        "receipt_044_receipt_044_item_6"
+      ],
+      "chunk_hashes": {
+        "receipt_044_receipt": "4cd885d6c49a9125255b042d7393382b20464288",
+        "receipt_044_receipt_044_item_1": "c10477af9f59a052af538e01d41e559bdc8f8a33",
+        "receipt_044_receipt_044_item_2": "9143b0c55e0b16089e989220c630c219e7d16214",
+        "receipt_044_receipt_044_item_3": "d81e5d9daceafc37960f1382da499c1e20a8a7a7",
+        "receipt_044_receipt_044_item_4": "47e7fa6a862ab226eaa5e3933a8c6f486bd6a0c8",
+        "receipt_044_receipt_044_item_5": "d819c8cf405404d34642b4225f90037ac8e61c68",
+        "receipt_044_receipt_044_item_6": "4cdceebfd65a626584792d45cdec945cd0ea680d"
+      }
+    },
+    "receipt_045": {
+      "source_file": "Notes/receipt_samples_100/receipt_045_restaurant_20231212.txt",
+      "receipt_hash": "a1adebe6848f0a67dc14a87f6f17f3630d509ada",
+      "chunk_ids": [
+        "receipt_045_receipt",
+        "receipt_045_receipt_045_item_1",
+        "receipt_045_receipt_045_item_2",
+        "receipt_045_receipt_045_item_3",
+        "receipt_045_receipt_045_item_4",
+        "receipt_045_receipt_045_item_5"
+      ],
+      "chunk_hashes": {
+        "receipt_045_receipt": "a0c6ab3327001595f23351eb714416724efd6ed1",
+        "receipt_045_receipt_045_item_1": "2c249d55d9345187ffbedd780a2eb28d40f45d28",
+        "receipt_045_receipt_045_item_2": "85df3103757e77c863158e5beb78654589fa7c16",
+        "receipt_045_receipt_045_item_3": "22cb5a408e30e5356ba006c6c6fd6cd94de6feb1",
+        "receipt_045_receipt_045_item_4": "a143d682edbd8ce7bc8ac85fb2672f639192bbbe",
+        "receipt_045_receipt_045_item_5": "ba5a63259f2b8599ccf3739a1edd5adebf03d788"
+      }
+    },
+    "receipt_046": {
+      "source_file": "Notes/receipt_samples_100/receipt_046_coffee_20231218.txt",
+      "receipt_hash": "a933e723ec47a51068149a80e82603a5b11d6a66",
+      "chunk_ids": [
+        "receipt_046_receipt",
+        "receipt_046_receipt_046_item_1",
+        "receipt_046_receipt_046_item_2"
+      ],
+      "chunk_hashes": {
+        "receipt_046_receipt": "84c2ce493e28fada006eff9ea10b771aeb0d35fa",
+        "receipt_046_receipt_046_item_1": "031fbd8294d979c24ee08bd15730f8040f5b3a35",
+        "receipt_046_receipt_046_item_2": "1b6c10c9d143034cb9c727cf48ec24d7a083d542"
+      }
+    },
+    "receipt_047": {
+      "source_file": "Notes/receipt_samples_100/receipt_047_coffee_20231112.txt",
+      "receipt_hash": "81369010eb72c5c88b1cad6f8076e34239d34e41",
+      "chunk_ids": [
+        "receipt_047_receipt",
+        "receipt_047_receipt_047_item_1",
+        "receipt_047_receipt_047_item_2"
+      ],
+      "chunk_hashes": {
+        "receipt_047_receipt": "3862f84688b8bcf26c31abb268ed56286adf15cf",
+        "receipt_047_receipt_047_item_1": "302ee38a04d7e0832ecbf7cdb8fdea180ff887b6",
+        "receipt_047_receipt_047_item_2": "922c929b7032801a45b8fd7712211c48b8bc3f78"
+      }
+    },
+    "receipt_048": {
+      "source_file": "Notes/receipt_samples_100/receipt_048_coffee_20240101.txt",
+      "receipt_hash": "be54fea8d57934242cee8b2979acb8cbaea8d323",
+      "chunk_ids": [
+        "receipt_048_receipt",
+        "receipt_048_receipt_048_item_1",
+        "receipt_048_receipt_048_item_2",
+        "receipt_048_receipt_048_item_3"
+      ],
+      "chunk_hashes": {
+        "receipt_048_receipt": "0b6d9e6e05d096e32421f9e293bcc6777a27d989",
+        "receipt_048_receipt_048_item_1": "9cb8e2616765cc1e0fc0d239888d3241336fd26f",
+        "receipt_048_receipt_048_item_2": "25bfa7e42a70a58d9952b534a1c5e09ce0f9b430",
+        "receipt_048_receipt_048_item_3": "18162a40882d8ea4fd85996fca1788506822e072"
+      }
+    },
+    "receipt_049": {
+      "source_file": "Notes/receipt_samples_100/receipt_049_coffee_20231121.txt",
+      "receipt_hash": "f5af6b4188f42ac19b7e4aa2f1f28c4a9c011eb4",
+      "chunk_ids": [
+        "receipt_049_receipt",
+        "receipt_049_receipt_049_item_1",
+        "receipt_049_receipt_049_item_2",
+        "receipt_049_receipt_049_item_3",
+        "receipt_049_receipt_049_item_4",
+        "receipt_049_receipt_049_item_5",
+        "receipt_049_receipt_049_item_6",
+        "receipt_049_receipt_049_item_7",
+        "receipt_049_receipt_049_item_8"
+      ],
+      "chunk_hashes": {
+        "receipt_049_receipt": "388bcac7b78601cdd558d7835e0e2f2be67e360c",
+        "receipt_049_receipt_049_item_1": "1c24ecf477f4c59f3d169a87f55279203e2b9c14",
+        "receipt_049_receipt_049_item_2": "0bc2a0bcd5d7a9e580eca8080532539c1e04bbb2",
+        "receipt_049_receipt_049_item_3": "784516504494cc32dc2ed852e5e9868ab67996d1",
+        "receipt_049_receipt_049_item_4": "ad16fae4e86de255a57a06b0e3568062572a48b0",
+        "receipt_049_receipt_049_item_5": "84c4dab3dce74cbbc500969de173fcbcd768c8fd",
+        "receipt_049_receipt_049_item_6": "a51bc727b1dddb7b6c95a8b8844672bca7a2c598",
+        "receipt_049_receipt_049_item_7": "9575ee2d8c39184ea2cdac4f019eb493d265f598",
+        "receipt_049_receipt_049_item_8": "f25a8c1252e6ca46138f9b8a813bd1be9c1a1d0c"
+      }
+    },
+    "receipt_050": {
+      "source_file": "Notes/receipt_samples_100/receipt_050_coffee_20231103.txt",
+      "receipt_hash": "49cb3e2de136db9e1e724e515a30c96558d200fa",
+      "chunk_ids": [
+        "receipt_050_receipt",
+        "receipt_050_receipt_050_item_1",
+        "receipt_050_receipt_050_item_2",
+        "receipt_050_receipt_050_item_3"
+      ],
+      "chunk_hashes": {
+        "receipt_050_receipt": "24ba3b7475a17f9c8e3e97981048a1abda68d125",
+        "receipt_050_receipt_050_item_1": "87187c54318f257aaad16ebc6680ecca374260e1",
+        "receipt_050_receipt_050_item_2": "988b977349bf9758ff94755c20d679ed67bfba7b",
+        "receipt_050_receipt_050_item_3": "ead7f9460eb41429d9c6e1964bf16e3d5254dfb3"
+      }
+    },
+    "receipt_051": {
+      "source_file": "Notes/receipt_samples_100/receipt_051_coffee_20240104.txt",
+      "receipt_hash": "eb1e3cf741b29b01ab0f46ef0281c5cb4009dbda",
+      "chunk_ids": [
+        "receipt_051_receipt",
+        "receipt_051_receipt_051_item_1",
+        "receipt_051_receipt_051_item_2",
+        "receipt_051_receipt_051_item_3",
+        "receipt_051_receipt_051_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_051_receipt": "bbabf4ad87a0996b374dd513bad5f66f3bd55527",
+        "receipt_051_receipt_051_item_1": "553728b90a57a9a0578fd53c42cea44e4898919b",
+        "receipt_051_receipt_051_item_2": "3a46d400d9585ae0708327a71c8844e082e68378",
+        "receipt_051_receipt_051_item_3": "58c0ca1eadc1172845bb27f564686545306632ca",
+        "receipt_051_receipt_051_item_4": "07895e9c9f24f0b0f1c077edd62205f198d63350"
+      }
+    },
+    "receipt_052": {
+      "source_file": "Notes/receipt_samples_100/receipt_052_coffee_20231231.txt",
+      "receipt_hash": "89de879e1eb350f6c0a6236f7aa4cc8338482c7a",
+      "chunk_ids": [
+        "receipt_052_receipt",
+        "receipt_052_receipt_052_item_1",
+        "receipt_052_receipt_052_item_2",
+        "receipt_052_receipt_052_item_3"
+      ],
+      "chunk_hashes": {
+        "receipt_052_receipt": "2e24efcd9d731d0e44efff3300f8eb2c8aa47a33",
+        "receipt_052_receipt_052_item_1": "cbee22dc6c379f6a3e3edcef9558db1ec632ee65",
+        "receipt_052_receipt_052_item_2": "7d3023464ca3721aa9fb9bcc79ee813305acd614",
+        "receipt_052_receipt_052_item_3": "4cf821b0ad94c20dc03beeb8054a749a1b485568"
+      }
+    },
+    "receipt_053": {
+      "source_file": "Notes/receipt_samples_100/receipt_053_coffee_20231205.txt",
+      "receipt_hash": "5706ef10de48658c8fce42c2499ec368484d112a",
+      "chunk_ids": [
+        "receipt_053_receipt",
+        "receipt_053_receipt_053_item_1",
+        "receipt_053_receipt_053_item_2",
+        "receipt_053_receipt_053_item_3",
+        "receipt_053_receipt_053_item_4",
+        "receipt_053_receipt_053_item_5",
+        "receipt_053_receipt_053_item_6",
+        "receipt_053_receipt_053_item_7",
+        "receipt_053_receipt_053_item_8"
+      ],
+      "chunk_hashes": {
+        "receipt_053_receipt": "61cef8d426f61878621eac759b25af339e37a924",
+        "receipt_053_receipt_053_item_1": "1a7f3de9c69355e1bb19046181b3463827f278fd",
+        "receipt_053_receipt_053_item_2": "299e95f611e76acc4da9d5fa0d10907fe38d10a3",
+        "receipt_053_receipt_053_item_3": "f957857eb68f86b8bf029ee9cf254497587f5faa",
+        "receipt_053_receipt_053_item_4": "868c1de7788237059fcaf346d5fec7ba56616d43",
+        "receipt_053_receipt_053_item_5": "3a7ab6f842214680eea1e2292b3a038eb376fc32",
+        "receipt_053_receipt_053_item_6": "3b0880f56d390f0c165be3cad314c7586b85e2ec",
+        "receipt_053_receipt_053_item_7": "f6cb446bb59bc48f00e1f66149b8969e1e87db60",
+        "receipt_053_receipt_053_item_8": "fbcee135a7098f7eedde2dc8540c1ee14b9c740d"
+      }
+    },
+    "receipt_054": {
+      "source_file": "Notes/receipt_samples_100/receipt_054_coffee_20231104.txt",
+      "receipt_hash": "b3d5cc32921616496f12084ae2eda4ee8266af5a",
+      "chunk_ids": [
+        "receipt_054_receipt",
+        "receipt_054_receipt_054_item_1",
+        "receipt_054_receipt_054_item_2",
+        "receipt_054_receipt_054_item_3",
+        "receipt_054_receipt_054_item_4",
+        "receipt_054_receipt_054_item_5",
+        "receipt_054_receipt_054_item_6"
+      ],
+      "chunk_hashes": {
+        "receipt_054_receipt": "c44c9d822c608cd09cd781e105c0032d37994526",
+        "receipt_054_receipt_054_item_1": "d8270c7ac5a54dcaccf7192f081b7468d405b540",
+        "receipt_054_receipt_054_item_2": "22b35fe3e43442ffd2eb8d92617c6ef5cd66a58b",
+        "receipt_054_receipt_054_item_3": "48f1bcb28828150328a828ebc02ff0d241d3157c",
+        "receipt_054_receipt_054_item_4": "2d0f8d3c8f06c74c0e662814e61f0a8c498b0e08",
+        "receipt_054_receipt_054_item_5": "4afd1ca205c3c2e19d603bde459f95d5467a1263",
+        "receipt_054_receipt_054_item_6": "2b5d1010f93c87f79e940bd92a19c49094e1722b"
+      }
+    },
+    "receipt_055": {
+      "source_file": "Notes/receipt_samples_100/receipt_055_coffee_20231201.txt",
+      "receipt_hash": "8b334b410db61230a34333bd88f794d716a4180d",
+      "chunk_ids": [
+        "receipt_055_receipt",
+        "receipt_055_receipt_055_item_1",
+        "receipt_055_receipt_055_item_2",
+        "receipt_055_receipt_055_item_3",
+        "receipt_055_receipt_055_item_4",
+        "receipt_055_receipt_055_item_5",
+        "receipt_055_receipt_055_item_6",
+        "receipt_055_receipt_055_item_7"
+      ],
+      "chunk_hashes": {
+        "receipt_055_receipt": "5edbb6bd9febffe162992d4d0dd72ada402ce041",
+        "receipt_055_receipt_055_item_1": "6175f84b410c8a2cc7ba3c23de81afe8809dc651",
+        "receipt_055_receipt_055_item_2": "710cc4eec248ae5959c567a516c1a0ed5bb8030a",
+        "receipt_055_receipt_055_item_3": "98d423e7bf3c055162f19f333486383964ffaf00",
+        "receipt_055_receipt_055_item_4": "ccaafa9cda3ecdae3aabaf0109b969362df69838",
+        "receipt_055_receipt_055_item_5": "5ecb10a0d83cebe2dc301a8e2119cdb42228bce1",
+        "receipt_055_receipt_055_item_6": "cc56eaac552e88a716a6d0a63329aa81d5f38a75",
+        "receipt_055_receipt_055_item_7": "5cb9fde5ce038edd5c3a244d9be11e57b276f684"
+      }
+    },
+    "receipt_056": {
+      "source_file": "Notes/receipt_samples_100/receipt_056_coffee_20231223.txt",
+      "receipt_hash": "e976674c87a60c213e30ffd1cb0cd471d6f91e49",
+      "chunk_ids": [
+        "receipt_056_receipt",
+        "receipt_056_receipt_056_item_1",
+        "receipt_056_receipt_056_item_2",
+        "receipt_056_receipt_056_item_3"
+      ],
+      "chunk_hashes": {
+        "receipt_056_receipt": "f9007a9ebe98392b382e4741743c461edf0fa064",
+        "receipt_056_receipt_056_item_1": "39c353ae8a658f1bf1bf63ba6711857cbf86d507",
+        "receipt_056_receipt_056_item_2": "30482656b8c14d4af7b562b6290eba376ce373dc",
+        "receipt_056_receipt_056_item_3": "91199dd7d7540a74549c9f37bade663911fd657f"
+      }
+    },
+    "receipt_057": {
+      "source_file": "Notes/receipt_samples_100/receipt_057_coffee_20231215.txt",
+      "receipt_hash": "d4b87d2b721150913a0fe7773827bb8549fc4d5d",
+      "chunk_ids": [
+        "receipt_057_receipt",
+        "receipt_057_receipt_057_item_1",
+        "receipt_057_receipt_057_item_2",
+        "receipt_057_receipt_057_item_3",
+        "receipt_057_receipt_057_item_4",
+        "receipt_057_receipt_057_item_5",
+        "receipt_057_receipt_057_item_6"
+      ],
+      "chunk_hashes": {
+        "receipt_057_receipt": "844e91acac452fd2c303dd63b413bc7955d2f50c",
+        "receipt_057_receipt_057_item_1": "e7f694066555cc16af206b1fbc059903796ba011",
+        "receipt_057_receipt_057_item_2": "8acce35c1cdbfa6e800d84c531abf7697018040c",
+        "receipt_057_receipt_057_item_3": "ac4028d0f78b81d5ed0bb4c181098aa973a56477",
+        "receipt_057_receipt_057_item_4": "d801be636f95cf862a8c5b951a3423d47c880adf",
+        "receipt_057_receipt_057_item_5": "78d23a7ec82296c7452e857d1dce4db298439504",
+        "receipt_057_receipt_057_item_6": "fa91080b4a8b9b95fbe49ca57bf887c3d89eb4f9"
+      }
+    },
+    "receipt_058": {
+      "source_file": "Notes/receipt_samples_100/receipt_058_coffee_20231121.txt",
+      "receipt_hash": "9e1bd538a8ea3f920544114e37259157f7c99cc9",
+      "chunk_ids": [
+        "receipt_058_receipt",
+        "receipt_058_receipt_058_item_1",
+        "receipt_058_receipt_058_item_2",
+        "receipt_058_receipt_058_item_3"
+      ],
+      "chunk_hashes": {
+        "receipt_058_receipt": "fb0d7c81ab0f0962449c2ad03367980955400683",
+        "receipt_058_receipt_058_item_1": "8c64bfe70dad924e1534a36c76b268a55d08da1d",
+        "receipt_058_receipt_058_item_2": "6fbd7158db53a5b7ae1d103ce7f958b1fb0cd90a",
+        "receipt_058_receipt_058_item_3": "3158195fddabfcd9e322de32f6cb1b7d1ccfd67d"
+      }
+    },
+    "receipt_059": {
+      "source_file": "Notes/receipt_samples_100/receipt_059_coffee_20231106.txt",
+      "receipt_hash": "454604ce6853834257402ef1efcf59743b28cd63",
+      "chunk_ids": [
+        "receipt_059_receipt",
+        "receipt_059_receipt_059_item_1",
+        "receipt_059_receipt_059_item_2",
+        "receipt_059_receipt_059_item_3",
+        "receipt_059_receipt_059_item_4",
+        "receipt_059_receipt_059_item_5",
+        "receipt_059_receipt_059_item_6"
+      ],
+      "chunk_hashes": {
+        "receipt_059_receipt": "a79ab52391e560f795db29ceeaae6319f5d24a35",
+        "receipt_059_receipt_059_item_1": "6038e3e29112f0cca574a3f742477c94e3a541c4",
+        "receipt_059_receipt_059_item_2": "99a41e40375d0b00866e031ac7b8c73a41f98123",
+        "receipt_059_receipt_059_item_3": "f3b042ff43ab22fa953e130a3d52afd17f477605",
+        "receipt_059_receipt_059_item_4": "99a41e40375d0b00866e031ac7b8c73a41f98123",
+        "receipt_059_receipt_059_item_5": "0c42d8d87a42d06732a19aa707f4212a98ee07f4",
+        "receipt_059_receipt_059_item_6": "4903e695392515dc3a082048c78ccea7008248e6"
+      }
+    },
+    "receipt_060": {
+      "source_file": "Notes/receipt_samples_100/receipt_060_coffee_20231126.txt",
+      "receipt_hash": "7f67d85df396e5bd8b1d44dc62cc96fc828fa583",
+      "chunk_ids": [
+        "receipt_060_receipt",
+        "receipt_060_receipt_060_item_1",
+        "receipt_060_receipt_060_item_2"
+      ],
+      "chunk_hashes": {
+        "receipt_060_receipt": "65fa85976c20b8dc6240ab19a02ff9eb04c03e80",
+        "receipt_060_receipt_060_item_1": "0d37256e23898a6a56898a60e80c72f4f474baac",
+        "receipt_060_receipt_060_item_2": "fcba1a4c2ce8742b478a6d44089ce19415bb4d19"
+      }
+    },
+    "receipt_061": {
+      "source_file": "Notes/receipt_samples_100/receipt_061_fast_food_20231231.txt",
+      "receipt_hash": "9e9152f2c45983beadadabaa4d93de8b52859fa5",
+      "chunk_ids": [
+        "receipt_061_receipt",
+        "receipt_061_receipt_061_item_1",
+        "receipt_061_receipt_061_item_2",
+        "receipt_061_receipt_061_item_3",
+        "receipt_061_receipt_061_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_061_receipt": "84c69d4b5001ad021f6619b678b84ee7ec6b7046",
+        "receipt_061_receipt_061_item_1": "e78b0300b8969964d74bc11e16a3aa9315639c06",
+        "receipt_061_receipt_061_item_2": "7c57cdb8b35539b1cddd8d476b3fd3ee8df03d48",
+        "receipt_061_receipt_061_item_3": "f469a39540c3b2e06fdb9a4158e287a0046d506f",
+        "receipt_061_receipt_061_item_4": "7bdc81eef03d1a1fdf35ad412552db89841e6650"
+      }
+    },
+    "receipt_062": {
+      "source_file": "Notes/receipt_samples_100/receipt_062_fast_food_20231221.txt",
+      "receipt_hash": "2463b7a411f0b52352678e53e5fa86934bf02bd0",
+      "chunk_ids": [
+        "receipt_062_receipt",
+        "receipt_062_receipt_062_item_1",
+        "receipt_062_receipt_062_item_2",
+        "receipt_062_receipt_062_item_3",
+        "receipt_062_receipt_062_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_062_receipt": "914128e86cbf3550003e7c130c03f7859287ce8b",
+        "receipt_062_receipt_062_item_1": "cae3e112d0ba042d2070207c891d3b52c992906f",
+        "receipt_062_receipt_062_item_2": "f2fbbe6e0464c3ed1232f4b6a8d80be9a2f55294",
+        "receipt_062_receipt_062_item_3": "459a138cd511adfd453da1d045092fe635c277f2",
+        "receipt_062_receipt_062_item_4": "7751fe1f6851159cf7cc1f60d3cc356d93d80cfc"
+      }
+    },
+    "receipt_063": {
+      "source_file": "Notes/receipt_samples_100/receipt_063_fast_food_20231106.txt",
+      "receipt_hash": "7bd33e23f6e333b75c06c21850bc37acd8924379",
+      "chunk_ids": [
+        "receipt_063_receipt",
+        "receipt_063_receipt_063_item_1",
+        "receipt_063_receipt_063_item_2",
+        "receipt_063_receipt_063_item_3",
+        "receipt_063_receipt_063_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_063_receipt": "d5fb82b1890bea9cdf2f73da6ed6b95a99e579f9",
+        "receipt_063_receipt_063_item_1": "b9112e08d05f872f9ec0af8c656c014c549c8ba5",
+        "receipt_063_receipt_063_item_2": "8f00c51417dcd5199cc7e391a89be7da41ed54db",
+        "receipt_063_receipt_063_item_3": "2c050c5479e7270d405556d437c04887a89ee98e",
+        "receipt_063_receipt_063_item_4": "63bcd61a387f4c8b4fc4ca834968018d8f202173"
+      }
+    },
+    "receipt_064": {
+      "source_file": "Notes/receipt_samples_100/receipt_064_fast_food_20231116.txt",
+      "receipt_hash": "902d98ef0082c0597118b9e795fded47ed2feca5",
+      "chunk_ids": [
+        "receipt_064_receipt",
+        "receipt_064_receipt_064_item_1",
+        "receipt_064_receipt_064_item_2",
+        "receipt_064_receipt_064_item_3",
+        "receipt_064_receipt_064_item_4",
+        "receipt_064_receipt_064_item_5"
+      ],
+      "chunk_hashes": {
+        "receipt_064_receipt": "51d2e91d9e16f0fbdab1a138c144a8611005558e",
+        "receipt_064_receipt_064_item_1": "751a9fc8a58633e94f387fce05e0a6ecd398663f",
+        "receipt_064_receipt_064_item_2": "a35a2321ff3f7f33cb49d7b516c741e2c09c2a65",
+        "receipt_064_receipt_064_item_3": "141798c1e2e10a54ed4a6a1961c57ea724d53c2f",
+        "receipt_064_receipt_064_item_4": "df03fa072fae41cd297c7255192f9ea27fc23164",
+        "receipt_064_receipt_064_item_5": "306a0e8f2f505d3cb9b63fdc911627ec9b7d7de8"
+      }
+    },
+    "receipt_065": {
+      "source_file": "Notes/receipt_samples_100/receipt_065_fast_food_20231107.txt",
+      "receipt_hash": "c1e74396797a7dca83aa021de2a66b77eaa8d2cc",
+      "chunk_ids": [
+        "receipt_065_receipt",
+        "receipt_065_receipt_065_item_1",
+        "receipt_065_receipt_065_item_2",
+        "receipt_065_receipt_065_item_3",
+        "receipt_065_receipt_065_item_4",
+        "receipt_065_receipt_065_item_5"
+      ],
+      "chunk_hashes": {
+        "receipt_065_receipt": "24b5a59401ed3eca7262f21221e33844df12bee6",
+        "receipt_065_receipt_065_item_1": "a7af0060a33cc8fed67321c730ab787d9c3ce40b",
+        "receipt_065_receipt_065_item_2": "b44d031b6319ca57280f8375b5649375363c7538",
+        "receipt_065_receipt_065_item_3": "a159851d785fa334ccc310abd8a2d984d55c7e6a",
+        "receipt_065_receipt_065_item_4": "4ec56abbf7326426dc15abecf6f5e2371f4c37bd",
+        "receipt_065_receipt_065_item_5": "7637b5ef7c4df05663e1c3512b636ce9e5071f85"
+      }
+    },
+    "receipt_066": {
+      "source_file": "Notes/receipt_samples_100/receipt_066_fast_food_20240122.txt",
+      "receipt_hash": "eabc2826a8aac34efaa25ce9e21dfcbf2f5be6e1",
+      "chunk_ids": [
+        "receipt_066_receipt",
+        "receipt_066_receipt_066_item_1",
+        "receipt_066_receipt_066_item_2",
+        "receipt_066_receipt_066_item_3",
+        "receipt_066_receipt_066_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_066_receipt": "30ef841c9b978c71c5ecf51ad58b51a83a849870",
+        "receipt_066_receipt_066_item_1": "e56b379815a6c3efad65e2d134fb4711956e8fd5",
+        "receipt_066_receipt_066_item_2": "c93acfb5132b57328f24f0e3134a511ffe0248d6",
+        "receipt_066_receipt_066_item_3": "6aa0dc8177eb04671ab91e219441bf5a2d5b34ea",
+        "receipt_066_receipt_066_item_4": "13ced887863da7b6b0850dfaf0799c5e3be92012"
+      }
+    },
+    "receipt_067": {
+      "source_file": "Notes/receipt_samples_100/receipt_067_fast_food_20231210.txt",
+      "receipt_hash": "75c64f5015da7c1cf6d45ab5c4223fb864267bc4",
+      "chunk_ids": [
+        "receipt_067_receipt",
+        "receipt_067_receipt_067_item_1",
+        "receipt_067_receipt_067_item_2",
+        "receipt_067_receipt_067_item_3",
+        "receipt_067_receipt_067_item_4",
+        "receipt_067_receipt_067_item_5"
+      ],
+      "chunk_hashes": {
+        "receipt_067_receipt": "afe5435c326fa847d99b1ef85ebad5e1722ae00c",
+        "receipt_067_receipt_067_item_1": "07e4b493d2390b929aba8bca019ea3a6b2626038",
+        "receipt_067_receipt_067_item_2": "bb832bf0b4ded533bb21d0ba371d63cf2f82538a",
+        "receipt_067_receipt_067_item_3": "a838095a364e1b7980fe998eb15b5103079e4cb3",
+        "receipt_067_receipt_067_item_4": "8f13a95135e619c02e5d0e66a94be14ee0b8afb8",
+        "receipt_067_receipt_067_item_5": "00b11b21aa45995d2424dbe326dba3b58a14c767"
+      }
+    },
+    "receipt_068": {
+      "source_file": "Notes/receipt_samples_100/receipt_068_fast_food_20240119.txt",
+      "receipt_hash": "428db1ad7964914042ed893589f9d9be93f1c25b",
+      "chunk_ids": [
+        "receipt_068_receipt",
+        "receipt_068_receipt_068_item_1",
+        "receipt_068_receipt_068_item_2",
+        "receipt_068_receipt_068_item_3",
+        "receipt_068_receipt_068_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_068_receipt": "e7a80a6b89841ec03bd05939fa982288ead4adfc",
+        "receipt_068_receipt_068_item_1": "b24463992e8733379289d982b522b6101b3071a3",
+        "receipt_068_receipt_068_item_2": "6494755ff809cbb77b97d1982fd5b76d20b20478",
+        "receipt_068_receipt_068_item_3": "8d521eba68486dbcb2311b179175fe459eb3b806",
+        "receipt_068_receipt_068_item_4": "29cc52dda41cdcd9c2a8129b8bd838852db7f7c6"
+      }
+    },
+    "receipt_069": {
+      "source_file": "Notes/receipt_samples_100/receipt_069_fast_food_20240128.txt",
+      "receipt_hash": "d05f9a7f258b2abca3f58e328396989f809c07a3",
+      "chunk_ids": [
+        "receipt_069_receipt",
+        "receipt_069_receipt_069_item_1",
+        "receipt_069_receipt_069_item_2",
+        "receipt_069_receipt_069_item_3",
+        "receipt_069_receipt_069_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_069_receipt": "96aa1e70335514af7387ef962cb7d4a3f45c21fe",
+        "receipt_069_receipt_069_item_1": "588e9b27adcea4852a14799df465745a6eb5c453",
+        "receipt_069_receipt_069_item_2": "ddff03acb616045b0a396ae1a2ca06707fb22580",
+        "receipt_069_receipt_069_item_3": "2b82cbdf1886cba1c54404faa874ddfe581e223d",
+        "receipt_069_receipt_069_item_4": "eb0b21c67cbc6d574d46d89df72cc0d2ad90af15"
+      }
+    },
+    "receipt_070": {
+      "source_file": "Notes/receipt_samples_100/receipt_070_fast_food_20231125.txt",
+      "receipt_hash": "c5c030e82fc55c8649862e39b8878fd273cc8ccd",
+      "chunk_ids": [
+        "receipt_070_receipt",
+        "receipt_070_receipt_070_item_1",
+        "receipt_070_receipt_070_item_2",
+        "receipt_070_receipt_070_item_3",
+        "receipt_070_receipt_070_item_4",
+        "receipt_070_receipt_070_item_5"
+      ],
+      "chunk_hashes": {
+        "receipt_070_receipt": "eeaa1769ee432f111bee4768b597c9f17ca101c3",
+        "receipt_070_receipt_070_item_1": "1a5d0962aaef92e077d71937de8cec747856a497",
+        "receipt_070_receipt_070_item_2": "9e3e16e172452842df2cf4a3b74efdb83e17b741",
+        "receipt_070_receipt_070_item_3": "0357beccc3c1930baa1d2fb35071c00217da8e6b",
+        "receipt_070_receipt_070_item_4": "edbfb8261ffaec5ebf6f88bda1b0426f905e2051",
+        "receipt_070_receipt_070_item_5": "350ad01f81b6628ace0ea3896f4225dcd188aa05"
+      }
+    },
+    "receipt_071": {
+      "source_file": "Notes/receipt_samples_100/receipt_071_fast_food_20231101.txt",
+      "receipt_hash": "48fb65c32c6e7df0054b2344aa328f2a6965a61b",
+      "chunk_ids": [
+        "receipt_071_receipt",
+        "receipt_071_receipt_071_item_1",
+        "receipt_071_receipt_071_item_2",
+        "receipt_071_receipt_071_item_3",
+        "receipt_071_receipt_071_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_071_receipt": "9cac366188a5b65903d76c3d4506fbbfd155a467",
+        "receipt_071_receipt_071_item_1": "a1eaa6887b61df07402c8e2056ef08c26ad281d1",
+        "receipt_071_receipt_071_item_2": "1febbcf0f552c6e574a96348f81498e20f2eaf45",
+        "receipt_071_receipt_071_item_3": "5bb5e7bc208523923ba0a3b3a591426e072014d3",
+        "receipt_071_receipt_071_item_4": "2c1def7a401d9bf2db529a4c66107a2b23761919"
+      }
+    },
+    "receipt_072": {
+      "source_file": "Notes/receipt_samples_100/receipt_072_fast_food_20231123.txt",
+      "receipt_hash": "f7e7704cf226c14c8e4403472341353d3235af26",
+      "chunk_ids": [
+        "receipt_072_receipt",
+        "receipt_072_receipt_072_item_1",
+        "receipt_072_receipt_072_item_2",
+        "receipt_072_receipt_072_item_3",
+        "receipt_072_receipt_072_item_4",
+        "receipt_072_receipt_072_item_5"
+      ],
+      "chunk_hashes": {
+        "receipt_072_receipt": "64693da73bc4d858b69f12aabcc48ed16909b62a",
+        "receipt_072_receipt_072_item_1": "63ee601458a1aa997952a2d6d9b0692b7c78b33c",
+        "receipt_072_receipt_072_item_2": "d8c1e2cf762045646c19b4e284679486e82fcc24",
+        "receipt_072_receipt_072_item_3": "c4068635426f084132f1c35d14e961c8d7f6aa06",
+        "receipt_072_receipt_072_item_4": "13db46825cd6d1a8231366c02aaa71f1f3aac8ec",
+        "receipt_072_receipt_072_item_5": "c6f4db8528b1a32709b460595b178a681c99a88e"
+      }
+    },
+    "receipt_073": {
+      "source_file": "Notes/receipt_samples_100/receipt_073_fast_food_20231208.txt",
+      "receipt_hash": "18f7c5d005d29440a2758d585ec9e5b6beb4cc7e",
+      "chunk_ids": [
+        "receipt_073_receipt",
+        "receipt_073_receipt_073_item_1",
+        "receipt_073_receipt_073_item_2",
+        "receipt_073_receipt_073_item_3",
+        "receipt_073_receipt_073_item_4",
+        "receipt_073_receipt_073_item_5"
+      ],
+      "chunk_hashes": {
+        "receipt_073_receipt": "0f96989491c6bb8734d346d708d3c9415d48a08a",
+        "receipt_073_receipt_073_item_1": "13def7b6d4f91dfd8092c809f9ea23f7ca0965e1",
+        "receipt_073_receipt_073_item_2": "83a57e515889f9ac633bba3735d2802073cc6fbe",
+        "receipt_073_receipt_073_item_3": "54c401b3be7194467c666bc3747b557f797eb102",
+        "receipt_073_receipt_073_item_4": "62a2eb00479c650d26665040a6934a5cf5652c51",
+        "receipt_073_receipt_073_item_5": "3ba7cf246a07674a1c8c183af0a764ac620ecbf7"
+      }
+    },
+    "receipt_074": {
+      "source_file": "Notes/receipt_samples_100/receipt_074_fast_food_20231113.txt",
+      "receipt_hash": "604d13975c6e84fb28872d98ff0beca7ad713b44",
+      "chunk_ids": [
+        "receipt_074_receipt",
+        "receipt_074_receipt_074_item_1",
+        "receipt_074_receipt_074_item_2",
+        "receipt_074_receipt_074_item_3",
+        "receipt_074_receipt_074_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_074_receipt": "5a4977de9c9e46953c17e4c7a59a0d00c60d0feb",
+        "receipt_074_receipt_074_item_1": "4230cee80be6bc4ed3a942c985eeb858f740e092",
+        "receipt_074_receipt_074_item_2": "a7cc3d401318443f304c6a4b0b38878faf689171",
+        "receipt_074_receipt_074_item_3": "0654b9aea6dcad86c0f174ba042de9c0ad62bd69",
+        "receipt_074_receipt_074_item_4": "faf26b454591748037c908bdb6ac3962b4ad1e6c"
+      }
+    },
+    "receipt_075": {
+      "source_file": "Notes/receipt_samples_100/receipt_075_fast_food_20231214.txt",
+      "receipt_hash": "9326e2ffb6018ce7f99c12e8d60d59a19222a957",
+      "chunk_ids": [
+        "receipt_075_receipt",
+        "receipt_075_receipt_075_item_1",
+        "receipt_075_receipt_075_item_2",
+        "receipt_075_receipt_075_item_3",
+        "receipt_075_receipt_075_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_075_receipt": "8857e90f87c611b1f38abb94d2e541e6155da84c",
+        "receipt_075_receipt_075_item_1": "37f5357426e883a234d5ba208136624d672c8a7a",
+        "receipt_075_receipt_075_item_2": "335fd720749a93c92e800b61dc820396ffc7e045",
+        "receipt_075_receipt_075_item_3": "6bb9475b1724e4a3e9b93deae07333a3bf622116",
+        "receipt_075_receipt_075_item_4": "203344b7d6422b67e7a49b88ae99b4dfb4cfb218"
+      }
+    },
+    "receipt_076": {
+      "source_file": "Notes/receipt_samples_100/receipt_076_electronics_20231216.txt",
+      "receipt_hash": "402458248db71e19228cb7fddd2ae5d48eaeb8af",
+      "chunk_ids": [
+        "receipt_076_receipt",
+        "receipt_076_receipt_076_item_1",
+        "receipt_076_receipt_076_item_2",
+        "receipt_076_receipt_076_item_3",
+        "receipt_076_receipt_076_item_4",
+        "receipt_076_receipt_076_item_5"
+      ],
+      "chunk_hashes": {
+        "receipt_076_receipt": "e653e751fbec335f2a72e1c6a0349ce0b15f0294",
+        "receipt_076_receipt_076_item_1": "69d5849ba541fe6e51bd9ae533304706aa1ac44e",
+        "receipt_076_receipt_076_item_2": "7adc74056ee535a3df99765ba0c179128cb7a6b5",
+        "receipt_076_receipt_076_item_3": "75566dd8ac3bc81fd6665001fa1909139e0b6e56",
+        "receipt_076_receipt_076_item_4": "16ec9e509a6e7d43a8a188ae6ff6b61cc3c0d9b2",
+        "receipt_076_receipt_076_item_5": "4da8ad5463196ae0fe85488e43a61d761a169f91"
+      }
+    },
+    "receipt_077": {
+      "source_file": "Notes/receipt_samples_100/receipt_077_electronics_20231127.txt",
+      "receipt_hash": "c1684a91a0a125614bfc7c368ba3606ac4764687",
+      "chunk_ids": [
+        "receipt_077_receipt",
+        "receipt_077_receipt_077_item_1",
+        "receipt_077_receipt_077_item_2",
+        "receipt_077_receipt_077_item_3",
+        "receipt_077_receipt_077_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_077_receipt": "303225837f94e19f28c6b6250f234c71a5cac6c2",
+        "receipt_077_receipt_077_item_1": "9fa03784e9c7504ef6947f207293c981e7ea5f5f",
+        "receipt_077_receipt_077_item_2": "a904f990ecdfa77d6f35abc68a67d91c214538d4",
+        "receipt_077_receipt_077_item_3": "23d4b38afe3e59f4b373acc345af4993d7d85738",
+        "receipt_077_receipt_077_item_4": "a2bea49f03e1aa9b7ecead6f281ec941868df661"
+      }
+    },
+    "receipt_078": {
+      "source_file": "Notes/receipt_samples_100/receipt_078_electronics_20240130.txt",
+      "receipt_hash": "c76e7a47c73e0e17be7124bde8acf5fef017cf1f",
+      "chunk_ids": [
+        "receipt_078_receipt",
+        "receipt_078_receipt_078_item_1"
+      ],
+      "chunk_hashes": {
+        "receipt_078_receipt": "25dd4e74244b32bcab3fbe54bcaf2ae4b7db8da3",
+        "receipt_078_receipt_078_item_1": "71502f22d72c841444f0089af062fb61f940f2bd"
+      }
+    },
+    "receipt_079": {
+      "source_file": "Notes/receipt_samples_100/receipt_079_electronics_20231106.txt",
+      "receipt_hash": "8830896e14eaf897a922bdfbd578bc0058ba7837",
+      "chunk_ids": [
+        "receipt_079_receipt",
+        "receipt_079_receipt_079_item_1"
+      ],
+      "chunk_hashes": {
+        "receipt_079_receipt": "f03f4c1612b5aa772c169abe1f1121976b383227",
+        "receipt_079_receipt_079_item_1": "15c994c12be530c02776e49622f06e0238dc75ce"
+      }
+    },
+    "receipt_080": {
+      "source_file": "Notes/receipt_samples_100/receipt_080_electronics_20231214.txt",
+      "receipt_hash": "33c2ac81b9ffdf5f6b299bf3b6943b8231225fd4",
+      "chunk_ids": [
+        "receipt_080_receipt",
+        "receipt_080_receipt_080_item_1",
+        "receipt_080_receipt_080_item_2",
+        "receipt_080_receipt_080_item_3",
+        "receipt_080_receipt_080_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_080_receipt": "2121ca7847102eace08c004cf5f57dfe317bc9c5",
+        "receipt_080_receipt_080_item_1": "f197c109faa92862f64875a47ba05e85afaea00e",
+        "receipt_080_receipt_080_item_2": "0d2cfcc490d0ab824a8bd3870e1da2dd7bfa98e0",
+        "receipt_080_receipt_080_item_3": "e0893b5c9c4b42a3d6d3dcd2b50f7cb12bbfcbdb",
+        "receipt_080_receipt_080_item_4": "88b34ceeae5524f4f46e9528e2534f7228ba0191"
+      }
+    },
+    "receipt_081": {
+      "source_file": "Notes/receipt_samples_100/receipt_081_electronics_20231106.txt",
+      "receipt_hash": "7e7320fbf8551d3e39da346b9132db33544ae5d2",
+      "chunk_ids": [
+        "receipt_081_receipt",
+        "receipt_081_receipt_081_item_1",
+        "receipt_081_receipt_081_item_2",
+        "receipt_081_receipt_081_item_3",
+        "receipt_081_receipt_081_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_081_receipt": "f37d2dc9d4cf4d60fe350d0e24cc3f5eb0b07167",
+        "receipt_081_receipt_081_item_1": "30362dc861750189df8d810ec7e597b45f0fa36a",
+        "receipt_081_receipt_081_item_2": "21fb381e6b9b5fd3e0fdf6f7bd2878a986635b53",
+        "receipt_081_receipt_081_item_3": "db086f9171c955d7f5af3e7f7b184c3345b63f10",
+        "receipt_081_receipt_081_item_4": "ed4971bac46a2656f110538acdf6228f39386e1b"
+      }
+    },
+    "receipt_082": {
+      "source_file": "Notes/receipt_samples_100/receipt_082_electronics_20240109.txt",
+      "receipt_hash": "adf1506c66f187d4eb2e33521703315b7b9c1260",
+      "chunk_ids": [
+        "receipt_082_receipt",
+        "receipt_082_receipt_082_item_1",
+        "receipt_082_receipt_082_item_2"
+      ],
+      "chunk_hashes": {
+        "receipt_082_receipt": "0145407db2d278d758b142a7e50d4a9b604c3b40",
+        "receipt_082_receipt_082_item_1": "eacb38ae2f4298e3c9099c349f8bdec66f7738a6",
+        "receipt_082_receipt_082_item_2": "8f635272b90af15766b51c97c472c4fd1d7447a0"
+      }
+    },
+    "receipt_083": {
+      "source_file": "Notes/receipt_samples_100/receipt_083_electronics_20231108.txt",
+      "receipt_hash": "9eede9b2acfc0853e33eca7e2e0d1f2ffaa12d3d",
+      "chunk_ids": [
+        "receipt_083_receipt",
+        "receipt_083_receipt_083_item_1",
+        "receipt_083_receipt_083_item_2",
+        "receipt_083_receipt_083_item_3"
+      ],
+      "chunk_hashes": {
+        "receipt_083_receipt": "3920c2a339e18a8e0ced6f7411f909a6477f1ac1",
+        "receipt_083_receipt_083_item_1": "518fa28c9068e17ce3620bcefdcf5f56b3d7a062",
+        "receipt_083_receipt_083_item_2": "2e6cc59e617ac7259a884aa0c7d67c51c8c275e7",
+        "receipt_083_receipt_083_item_3": "bfadafe8fc293aabf62a8b91623e500a6570e7c6"
+      }
+    },
+    "receipt_084": {
+      "source_file": "Notes/receipt_samples_100/receipt_084_pharmacy_20231129.txt",
+      "receipt_hash": "ff2593638b18679e858bd0b5e61ed8c110a596d7",
+      "chunk_ids": [
+        "receipt_084_receipt",
+        "receipt_084_receipt_084_item_1",
+        "receipt_084_receipt_084_item_2",
+        "receipt_084_receipt_084_item_3",
+        "receipt_084_receipt_084_item_4",
+        "receipt_084_receipt_084_item_5"
+      ],
+      "chunk_hashes": {
+        "receipt_084_receipt": "b26b0495e6170684767158323acfef4a3411cac7",
+        "receipt_084_receipt_084_item_1": "2bb38628d0c77e708fc4e5453460adb24e13e035",
+        "receipt_084_receipt_084_item_2": "45995740610d987c11cd89c114cd435a236ef441",
+        "receipt_084_receipt_084_item_3": "d5d97eb21ea66507c84f4c4ffc1d777850112a19",
+        "receipt_084_receipt_084_item_4": "6384851d841dc9c43c0bfd42e6e904a974f2719a",
+        "receipt_084_receipt_084_item_5": "057ef258e42f1c4655d2262ba5c162ce122ed9f9"
+      }
+    },
+    "receipt_085": {
+      "source_file": "Notes/receipt_samples_100/receipt_085_pharmacy_20231105.txt",
+      "receipt_hash": "566bcdc38ee118dac5d296a9685e77e4ee36cc4d",
+      "chunk_ids": [
+        "receipt_085_receipt",
+        "receipt_085_receipt_085_item_1",
+        "receipt_085_receipt_085_item_2",
+        "receipt_085_receipt_085_item_3",
+        "receipt_085_receipt_085_item_4",
+        "receipt_085_receipt_085_item_5",
+        "receipt_085_receipt_085_item_6",
+        "receipt_085_receipt_085_item_7",
+        "receipt_085_receipt_085_item_8",
+        "receipt_085_receipt_085_item_9"
+      ],
+      "chunk_hashes": {
+        "receipt_085_receipt": "941225f74316879e32ba91f70eafa0fbde1dd306",
+        "receipt_085_receipt_085_item_1": "f2a93b1e52c6da29d5dd1f05f58a4b5d11cdf636",
+        "receipt_085_receipt_085_item_2": "cbc05350d6248d7e651a716ce0570e936022972d",
+        "receipt_085_receipt_085_item_3": "54dd8bfd2027f7037cbbaca248f37dc5dc2a1243",
+        "receipt_085_receipt_085_item_4": "d6e45a4d9197df16be498fcb12f0679ea0e62516",
+        "receipt_085_receipt_085_item_5": "f448367a6ffb964bbc1fcb243c78b69ce30832ec",
+        "receipt_085_receipt_085_item_6": "cf8a105d4487528ad566b76a37143c6a3eb06743",
+        "receipt_085_receipt_085_item_7": "210f6e64189d7b804ed443442c66422af7697b4a",
+        "receipt_085_receipt_085_item_8": "444ab762fb729fad289b297c1b3c889c00ea6e04",
+        "receipt_085_receipt_085_item_9": "40bbd3a9958c4211e3d2fa54096710cd6c571d0f"
+      }
+    },
+    "receipt_086": {
+      "source_file": "Notes/receipt_samples_100/receipt_086_pharmacy_20240101.txt",
+      "receipt_hash": "9a62af228cd6e97752f49444c5633a23604eb43f",
+      "chunk_ids": [
+        "receipt_086_receipt",
+        "receipt_086_receipt_086_item_1",
+        "receipt_086_receipt_086_item_2",
+        "receipt_086_receipt_086_item_3",
+        "receipt_086_receipt_086_item_4",
+        "receipt_086_receipt_086_item_5",
+        "receipt_086_receipt_086_item_6",
+        "receipt_086_receipt_086_item_7",
+        "receipt_086_receipt_086_item_8",
+        "receipt_086_receipt_086_item_9",
+        "receipt_086_receipt_086_item_10"
+      ],
+      "chunk_hashes": {
+        "receipt_086_receipt": "d16cc4850afea3e5bdb483292fabf09cbb608b80",
+        "receipt_086_receipt_086_item_1": "fc9af305b6852cf02721f4432fc0b723485eb903",
+        "receipt_086_receipt_086_item_2": "d20b58fde765eec23f0b516396a5706f02c5933c",
+        "receipt_086_receipt_086_item_3": "be77d490b44ed21cc0e4fe2a63f067095033e998",
+        "receipt_086_receipt_086_item_4": "d4f4e44ec841c7e8724b3fa54078ba6594d1011f",
+        "receipt_086_receipt_086_item_5": "1e8772565fb3280aa6c81c03a9f593e01b0e5478",
+        "receipt_086_receipt_086_item_6": "ad6dd4f08f985e248f97b41a8743be6e1312245f",
+        "receipt_086_receipt_086_item_7": "f792b53a55cbc1bb9300caf0a1c190d8f375424c",
+        "receipt_086_receipt_086_item_8": "054051b2e8bada53aa65d3d350a26198c4200224",
+        "receipt_086_receipt_086_item_9": "0fe9c8d691f57a0fd5a343a383bb8f8e2c668813",
+        "receipt_086_receipt_086_item_10": "c619697c53e99ec5e00989feb9663e21b961e500"
+      }
+    },
+    "receipt_087": {
+      "source_file": "Notes/receipt_samples_100/receipt_087_pharmacy_20231205.txt",
+      "receipt_hash": "98c724d095c5d27a5a7131610293d464be90ecf1",
+      "chunk_ids": [
+        "receipt_087_receipt",
+        "receipt_087_receipt_087_item_1",
+        "receipt_087_receipt_087_item_2",
+        "receipt_087_receipt_087_item_3",
+        "receipt_087_receipt_087_item_4"
+      ],
+      "chunk_hashes": {
+        "receipt_087_receipt": "e2e5ae9db18a26f8a0cf24027b91afc7ebf66837",
+        "receipt_087_receipt_087_item_1": "8ecba3ccc5801296679bf219b08d1c26684ff773",
+        "receipt_087_receipt_087_item_2": "24cb7b49edc267ce524dcb6078c3b14d13a532f8",
+        "receipt_087_receipt_087_item_3": "98074b5fb96c7a2a240b6e8a77a30ac56a5e5e41",
+        "receipt_087_receipt_087_item_4": "a4a6487067665f9b80df9a9c7441cab4d18b14bd"
+      }
+    },
+    "receipt_088": {
+      "source_file": "Notes/receipt_samples_100/receipt_088_pharmacy_20240116.txt",
+      "receipt_hash": "01e33de8bcc72a6bfb39d39d12b5ed7af05546d4",
+      "chunk_ids": [
+        "receipt_088_receipt",
+        "receipt_088_receipt_088_item_1",
+        "receipt_088_receipt_088_item_2",
+        "receipt_088_receipt_088_item_3",
+        "receipt_088_receipt_088_item_4",
+        "receipt_088_receipt_088_item_5",
+        "receipt_088_receipt_088_item_6"
+      ],
+      "chunk_hashes": {
+        "receipt_088_receipt": "272542d96e937de17df33db4e8783b981f27c229",
+        "receipt_088_receipt_088_item_1": "3b0e769cdf60f46c66752114d8d58e84399be6af",
+        "receipt_088_receipt_088_item_2": "24e888eb7fa94040582e049b2776e9b7a7c25309",
+        "receipt_088_receipt_088_item_3": "d4547094567dbed93ead384a2b96897df19f894e",
+        "receipt_088_receipt_088_item_4": "a43106227e008231279bda1b28a2d1ee1561d175",
+        "receipt_088_receipt_088_item_5": "e5c45cbcd558ae1d5ec82f52b11c8f618bec30f0",
+        "receipt_088_receipt_088_item_6": "28b84ca9879a0e57c7d86b87c2c848a4342506ed"
+      }
+    },
+    "receipt_089": {
+      "source_file": "Notes/receipt_samples_100/receipt_089_pharmacy_20240126.txt",
+      "receipt_hash": "525f1573f60f2f8aae20b1b0275cca17c5bddf54",
+      "chunk_ids": [
+        "receipt_089_receipt",
+        "receipt_089_receipt_089_item_1",
+        "receipt_089_receipt_089_item_2",
+        "receipt_089_receipt_089_item_3",
+        "receipt_089_receipt_089_item_4",
+        "receipt_089_receipt_089_item_5",
+        "receipt_089_receipt_089_item_6",
+        "receipt_089_receipt_089_item_7",
+        "receipt_089_receipt_089_item_8"
+      ],
+      "chunk_hashes": {
+        "receipt_089_receipt": "910e140eb8a222c1f7c5a895b122c6a942707983",
+        "receipt_089_receipt_089_item_1": "9ff8544bfc662b259ece4f953938cc6b6952fbe8",
+        "receipt_089_receipt_089_item_2": "870d40a2e5e220bf7a7fcd335694d5c0fbd3eef6",
+        "receipt_089_receipt_089_item_3": "95bf8fc826ba9a0986fd8bcf108353b3737fb87b",
+        "receipt_089_receipt_089_item_4": "46926bffc6b220e23ece3f09d3289139eadbe1fa",
+        "receipt_089_receipt_089_item_5": "7bc02fdad7931e0cc09b00f0068d3735a45d53a1",
+        "receipt_089_receipt_089_item_6": "e65307053fc4472e8da1680f74df6808829496ab",
+        "receipt_089_receipt_089_item_7": "3974dbccfe3d2bcccaab95f34fcf1dab2c2e0e67",
+        "receipt_089_receipt_089_item_8": "766bab73bfb85ccb4a41da5fb249874b52896990"
+      }
+    },
+    "receipt_090": {
+      "source_file": "Notes/receipt_samples_100/receipt_090_pharmacy_20240104.txt",
+      "receipt_hash": "9a8fe1887e61001f03a51cd5714cb61bc711a0b3",
+      "chunk_ids": [
+        "receipt_090_receipt",
+        "receipt_090_receipt_090_item_1",
+        "receipt_090_receipt_090_item_2",
+        "receipt_090_receipt_090_item_3",
+        "receipt_090_receipt_090_item_4",
+        "receipt_090_receipt_090_item_5",
+        "receipt_090_receipt_090_item_6"
+      ],
+      "chunk_hashes": {
+        "receipt_090_receipt": "c6a79b1e92176c816446792cd956384561d1ffb1",
+        "receipt_090_receipt_090_item_1": "563b095c0abc462a9bd8df5810534160813e68ad",
+        "receipt_090_receipt_090_item_2": "0985ae75f161c55c63f78aec99827675fa62bd04",
+        "receipt_090_receipt_090_item_3": "bc12c63e03cb7e48afed559c4ffec36b35297fda",
+        "receipt_090_receipt_090_item_4": "59e5387f26088fbb054face0414b98da5c10bca9",
+        "receipt_090_receipt_090_item_5": "d1f791b43f2de709af8e62e8378491c791533b13",
+        "receipt_090_receipt_090_item_6": "492ddfe84a5cde4e6f7e2f36f3d5beda018d5aaa"
+      }
+    },
+    "receipt_091": {
+      "source_file": "Notes/receipt_samples_100/receipt_091_retail_20231224.txt",
+      "receipt_hash": "737d524e7ca8ce5977f67471a424004bd0eb52a8",
+      "chunk_ids": [
+        "receipt_091_receipt",
+        "receipt_091_receipt_091_item_1",
+        "receipt_091_receipt_091_item_2",
+        "receipt_091_receipt_091_item_3",
+        "receipt_091_receipt_091_item_4",
+        "receipt_091_receipt_091_item_5",
+        "receipt_091_receipt_091_item_6",
+        "receipt_091_receipt_091_item_7",
+        "receipt_091_receipt_091_item_8",
+        "receipt_091_receipt_091_item_9"
+      ],
+      "chunk_hashes": {
+        "receipt_091_receipt": "7fa2ddba9db16598a925e999cefcb526cddfc845",
+        "receipt_091_receipt_091_item_1": "3af932bac637169dc751c869ef8170daaa6ee55e",
+        "receipt_091_receipt_091_item_2": "4b04ac531ac9b3582fb5362a045592f82c9244b3",
+        "receipt_091_receipt_091_item_3": "0427da8e56ce9d68e46a44179884dccf9bdce5ae",
+        "receipt_091_receipt_091_item_4": "2e096d870ec69b71e7314bf58bb91dcdf245a2ce",
+        "receipt_091_receipt_091_item_5": "c7aad2e1a5abddc688f595410f2d9a3994393713",
+        "receipt_091_receipt_091_item_6": "93a5a542097d11b83d853262c23d77a35df874f8",
+        "receipt_091_receipt_091_item_7": "1d538bfbea64c712f1253f6a05e06ec56f5b3e68",
+        "receipt_091_receipt_091_item_8": "14efca69173ddfd64b38a6b2b67eb311dff93a2a",
+        "receipt_091_receipt_091_item_9": "6a1c6465093df298744a1f58e4729b114ea12728"
+      }
+    },
+    "receipt_092": {
+      "source_file": "Notes/receipt_samples_100/receipt_092_retail_20231216.txt",
+      "receipt_hash": "2b04c4313765dccec25a077cde8dacc5c1c29d12",
+      "chunk_ids": [
+        "receipt_092_receipt",
+        "receipt_092_receipt_092_item_1",
+        "receipt_092_receipt_092_item_2",
+        "receipt_092_receipt_092_item_3",
+        "receipt_092_receipt_092_item_4",
+        "receipt_092_receipt_092_item_5",
+        "receipt_092_receipt_092_item_6",
+        "receipt_092_receipt_092_item_7",
+        "receipt_092_receipt_092_item_8",
+        "receipt_092_receipt_092_item_9",
+        "receipt_092_receipt_092_item_10",
+        "receipt_092_receipt_092_item_11",
+        "receipt_092_receipt_092_item_12",
+        "receipt_092_receipt_092_item_13",
+        "receipt_092_receipt_092_item_14"
+      ],
+      "chunk_hashes": {
+        "receipt_092_receipt": "9ec6dc67ca93d79bd64c40e90e85f728cf0e974e",
+        "receipt_092_receipt_092_item_1": "a8e008d68b0bddc83414df42844e67f5b1e47e90",
+        "receipt_092_receipt_092_item_2": "4ece3326463c8c394190496f7c0e02dca348f453",
+        "receipt_092_receipt_092_item_3": "c0d4b72a9e040ac801d4b4466cc75aab275a73c9",
+        "receipt_092_receipt_092_item_4": "71f29fefe3c4d1b56dc87812d9aa36a7d7e8659c",
+        "receipt_092_receipt_092_item_5": "955a16ed2163bbf41a83c9991ec2c5e8e75cbdf2",
+        "receipt_092_receipt_092_item_6": "bd22e9b5fc71f5bb92d0ca85b60771604118fee7",
+        "receipt_092_receipt_092_item_7": "acbf3a2d28a1bb11515277f427499f74c4c652ad",
+        "receipt_092_receipt_092_item_8": "b2d91dfa3c27a23eec779ec1958844c5476d7212",
+        "receipt_092_receipt_092_item_9": "b336edec649bdabd350affffaf1332024101bd6e",
+        "receipt_092_receipt_092_item_10": "34e0e4fb1d72677aab4f121855f879dd5f3fa748",
+        "receipt_092_receipt_092_item_11": "85a993921ce160fa3321c42dee9bcec5968ae1d2",
+        "receipt_092_receipt_092_item_12": "5a21f69b54149314d1f66c5832d02c94a6f3e5df",
+        "receipt_092_receipt_092_item_13": "909ef722c8fec1d2dd793297e0027369b7016f36",
+        "receipt_092_receipt_092_item_14": "09857b6e2a313624e93b03fdca52e102e72b048c"
+      }
+    },
+    "receipt_093": {
+      "source_file": "Notes/receipt_samples_100/receipt_093_retail_20231106.txt",
+      "receipt_hash": "b1ce7dadbd1488a4e302c77da951fc8148dda513",
+      "chunk_ids": [
+        "receipt_093_receipt",
+        "receipt_093_receipt_093_item_1",
+        "receipt_093_receipt_093_item_2",
+        "receipt_093_receipt_093_item_3",
+        "receipt_093_receipt_093_item_4",
+        "receipt_093_receipt_093_item_5",
+        "receipt_093_receipt_093_item_6",
+        "receipt_093_receipt_093_item_7",
+        "receipt_093_receipt_093_item_8"
+      ],
+      "chunk_hashes": {
+        "receipt_093_receipt": "60cddcd25f146b2563099250b06e992cefaa5cd5",
+        "receipt_093_receipt_093_item_1": "ce5ece9778c05cf3484622d88a008dbe11a8801e",
+        "receipt_093_receipt_093_item_2": "0c941a8ed1a3a1328b324ec66d6e20301e0f17e7",
+        "receipt_093_receipt_093_item_3": "6e6f86edf44c081a810d4861f248ab2cd22caad1",
+        "receipt_093_receipt_093_item_4": "409bbcbbdf3ced9ed853027d46e3acb46eec2a53",
+        "receipt_093_receipt_093_item_5": "ff257e3f421b377d05f11f4c3d2ac0ac8028ecef",
+        "receipt_093_receipt_093_item_6": "5d4757fdf372bbc0248f66881a869b72fc6922a1",
+        "receipt_093_receipt_093_item_7": "6f5930e5be91741db09ef5f97b464a2f79c8e930",
+        "receipt_093_receipt_093_item_8": "7b1f9b990c33ff26aacfaca075ae8a3a2a5e26de"
+      }
+    },
+    "receipt_094": {
+      "source_file": "Notes/receipt_samples_100/receipt_094_retail_20240124.txt",
+      "receipt_hash": "85d29d8fbe90352a37b8a8d1824dae7327c0eb13",
+      "chunk_ids": [
+        "receipt_094_receipt",
+        "receipt_094_receipt_094_item_1",
+        "receipt_094_receipt_094_item_2",
+        "receipt_094_receipt_094_item_3",
+        "receipt_094_receipt_094_item_4",
+        "receipt_094_receipt_094_item_5",
+        "receipt_094_receipt_094_item_6",
+        "receipt_094_receipt_094_item_7",
+        "receipt_094_receipt_094_item_8",
+        "receipt_094_receipt_094_item_9",
+        "receipt_094_receipt_094_item_10"
+      ],
+      "chunk_hashes": {
+        "receipt_094_receipt": "d767550e6e3b66bcb465038a5ea026af3e48d370",
+        "receipt_094_receipt_094_item_1": "ded87b8e72875dc7ec945dc39c062e129073d9df",
+        "receipt_094_receipt_094_item_2": "3fecafd5d2fe47d82a9f28a8179eea5d83e27584",
+        "receipt_094_receipt_094_item_3": "0c02cbf7f850d079b26587c20aced34c167db386",
+        "receipt_094_receipt_094_item_4": "66a10861e1480f689909ce9ff89f35b2c1500fd2",
+        "receipt_094_receipt_094_item_5": "f79b88eaab96e65984975e149c767bdcc21eb174",
+        "receipt_094_receipt_094_item_6": "71a0198e4fa3e0dabd54039dc0ea7050807dbad3",
+        "receipt_094_receipt_094_item_7": "1d13b418714d8e44dab52867e4eb520ed307923f",
+        "receipt_094_receipt_094_item_8": "312a21c0a1d72c2e39a0e98ef4f4bfd6853ed8f9",
+        "receipt_094_receipt_094_item_9": "72d060c477b40e62353701b87c69caef4e5f7801",
+        "receipt_094_receipt_094_item_10": "40d3e53cbd7d8c69b4adcc2ea18871dd782973ed"
+      }
+    },
+    "receipt_095": {
+      "source_file": "Notes/receipt_samples_100/receipt_095_retail_20240129.txt",
+      "receipt_hash": "d8c291b5192e5b2b0098a2a0283390023d00b415",
+      "chunk_ids": [
+        "receipt_095_receipt",
+        "receipt_095_receipt_095_item_1",
+        "receipt_095_receipt_095_item_2",
+        "receipt_095_receipt_095_item_3",
+        "receipt_095_receipt_095_item_4",
+        "receipt_095_receipt_095_item_5",
+        "receipt_095_receipt_095_item_6",
+        "receipt_095_receipt_095_item_7",
+        "receipt_095_receipt_095_item_8",
+        "receipt_095_receipt_095_item_9",
+        "receipt_095_receipt_095_item_10",
+        "receipt_095_receipt_095_item_11"
+      ],
+      "chunk_hashes": {
+        "receipt_095_receipt": "68a882fb95846a5578066b8b01220fe5f4256d5a",
+        "receipt_095_receipt_095_item_1": "e1ed5e6964a56bc2a23ea4ac990dc42e90c95921",
+        "receipt_095_receipt_095_item_2": "42f41d3feb0ec013508cd7d2cfb1c4b3116531b4",
+        "receipt_095_receipt_095_item_3": "5682023841f6a8550779532292bf912f40929891",
+        "receipt_095_receipt_095_item_4": "80ca1f0798e4ecabfe42ba29019d0a7cc4e9cab9",
+        "receipt_095_receipt_095_item_5": "53d0a94b50079d4a8a73b0229310a1621b96820a",
+        "receipt_095_receipt_095_item_6": "baacc1ec54cd46da066e9cced29648f711704cc4",
+        "receipt_095_receipt_095_item_7": "b072b8602b288518e83f47f719b7fe2e11f85eb3",
+        "receipt_095_receipt_095_item_8": "5a4d80931a514169ac2fec857b189a0f6690e156",
+        "receipt_095_receipt_095_item_9": "a51b9e6800c9106e0895c62c10767ebf1c26c24f",
+        "receipt_095_receipt_095_item_10": "3b35e8260d77460d8afa1e72a4755c7412512b81",
+        "receipt_095_receipt_095_item_11": "5e113da814c8bfc06a0b125bbc7d5a20e5dc9649"
+      }
+    },
+    "receipt_096": {
+      "source_file": "Notes/receipt_samples_100/receipt_096_hardware_20231207.txt",
+      "receipt_hash": "07d093689686e3499cb34d121204710a326403b4",
+      "chunk_ids": [
+        "receipt_096_receipt",
+        "receipt_096_receipt_096_item_1",
+        "receipt_096_receipt_096_item_2",
+        "receipt_096_receipt_096_item_3",
+        "receipt_096_receipt_096_item_4",
+        "receipt_096_receipt_096_item_5",
+        "receipt_096_receipt_096_item_6",
+        "receipt_096_receipt_096_item_7",
+        "receipt_096_receipt_096_item_8",
+        "receipt_096_receipt_096_item_9",
+        "receipt_096_receipt_096_item_10",
+        "receipt_096_receipt_096_item_11",
+        "receipt_096_receipt_096_item_12",
+        "receipt_096_receipt_096_item_13",
+        "receipt_096_receipt_096_item_14",
+        "receipt_096_receipt_096_item_15",
+        "receipt_096_receipt_096_item_16"
+      ],
+      "chunk_hashes": {
+        "receipt_096_receipt": "e5933d8aa9263c9564adde819bafcdc788c94330",
+        "receipt_096_receipt_096_item_1": "fc9f30d677600dd4d10dadc1a501bba2c3e3da43",
+        "receipt_096_receipt_096_item_2": "0280259c5f83081e135f2c9118dbbc8159ab79dc",
+        "receipt_096_receipt_096_item_3": "1b0d8bf327303d256e0083779f3b7395be354b34",
+        "receipt_096_receipt_096_item_4": "02200bac57cd7daeb2a79184805d7960886c6cc4",
+        "receipt_096_receipt_096_item_5": "90eb201488065144968d68f9b02557dc2875539f",
+        "receipt_096_receipt_096_item_6": "5b3b3b7e41ff3327b96ecb18a4b38de8de1a070f",
+        "receipt_096_receipt_096_item_7": "de27c59a94af23faffb44a92545765422410b5be",
+        "receipt_096_receipt_096_item_8": "f81659170d76918358a49d22067458fb52ba4549",
+        "receipt_096_receipt_096_item_9": "843415310ef0113cf40ffcfe4489cd478d8a154f",
+        "receipt_096_receipt_096_item_10": "b9c5457d350f4aeaa14ce47b5150a8af7b1adbe6",
+        "receipt_096_receipt_096_item_11": "853dacf785c2925340fdcd9e4e464063616038c3",
+        "receipt_096_receipt_096_item_12": "ba65ceb8977a8b1841c71d07c78208117c33fb01",
+        "receipt_096_receipt_096_item_13": "d1bb520f33ffb24613c494c0199208740d796ff6",
+        "receipt_096_receipt_096_item_14": "35c0cc3139dea25f3f0edb3dafc424d69e9b19b9",
+        "receipt_096_receipt_096_item_15": "58da9f97f7017f6090834848c27b3627a01edeae",
+        "receipt_096_receipt_096_item_16": "66b7796ad0ee75c469e3e6a59e292c9963e66419"
+      }
+    },
+    "receipt_097": {
+      "source_file": "Notes/receipt_samples_100/receipt_097_hardware_20231114.txt",
+      "receipt_hash": "279e868e372aa1587783eca9cfc6ec343efb757b",
+      "chunk_ids": [
+        "receipt_097_receipt",
+        "receipt_097_receipt_097_item_1",
+        "receipt_097_receipt_097_item_2",
+        "receipt_097_receipt_097_item_3",
+        "receipt_097_receipt_097_item_4",
+        "receipt_097_receipt_097_item_5",
+        "receipt_097_receipt_097_item_6",
+        "receipt_097_receipt_097_item_7"
+      ],
+      "chunk_hashes": {
+        "receipt_097_receipt": "903e5f5c76ec817092e2c806a302115d00ad8132",
+        "receipt_097_receipt_097_item_1": "bd0e257c085e66cd3ba882b2dca1c8d2fae9b87d",
+        "receipt_097_receipt_097_item_2": "68110b18cc624b2cec52cee021585b4299f42a7a",
+        "receipt_097_receipt_097_item_3": "0f353f991764982ab1b92e13fe5c96deadc2f77a",
+        "receipt_097_receipt_097_item_4": "51fb74c8178bc7b61c8779f20bd29c0a5ccf702a",
+        "receipt_097_receipt_097_item_5": "b0dd978ff35e64f84d381d153d3dbf4ed4f01fcc",
+        "receipt_097_receipt_097_item_6": "a80027de445859b054ac2387f5d3f10123874abb",
+        "receipt_097_receipt_097_item_7": "26e660a026c04c86c0dd26babe32b2e844c1b6d5"
+      }
+    },
+    "receipt_098": {
+      "source_file": "Notes/receipt_samples_100/receipt_098_hardware_20231202.txt",
+      "receipt_hash": "6cd87de5adf10cb6a8f8b142e00b6fe6d4f3b4b3",
+      "chunk_ids": [
+        "receipt_098_receipt",
+        "receipt_098_receipt_098_item_1",
+        "receipt_098_receipt_098_item_2",
+        "receipt_098_receipt_098_item_3",
+        "receipt_098_receipt_098_item_4",
+        "receipt_098_receipt_098_item_5",
+        "receipt_098_receipt_098_item_6",
+        "receipt_098_receipt_098_item_7",
+        "receipt_098_receipt_098_item_8",
+        "receipt_098_receipt_098_item_9",
+        "receipt_098_receipt_098_item_10",
+        "receipt_098_receipt_098_item_11"
+      ],
+      "chunk_hashes": {
+        "receipt_098_receipt": "8fcf5989d022a284f65b2c76cedce8c5d2e11a89",
+        "receipt_098_receipt_098_item_1": "b947e56234efabca89362ea0cc68bc9422da8fda",
+        "receipt_098_receipt_098_item_2": "49239f7282cb2f31799b886aa39d842d6c2d1e1d",
+        "receipt_098_receipt_098_item_3": "fbe51438ca1811ad398bb53f11c6b6726009f1f3",
+        "receipt_098_receipt_098_item_4": "83d8f89040edcc3b6f762d0c61ffcc7a86de47e8",
+        "receipt_098_receipt_098_item_5": "af460b9d0657ab92747e3acb821f90bcba10a271",
+        "receipt_098_receipt_098_item_6": "a9e8fd6a1e01ac78ee42d22b1c640ec97e0dc4dc",
+        "receipt_098_receipt_098_item_7": "03f4f03e59a2d7d7f5555494cbb86a4e7e304e4c",
+        "receipt_098_receipt_098_item_8": "eca031c957aab6be9aa4241039872297f7f20fc6",
+        "receipt_098_receipt_098_item_9": "d7ae7aa3643d27144a9669edfbe35d0a0a62d364",
+        "receipt_098_receipt_098_item_10": "b4583e8be7bd5d31bbd040979e226f45e56f859a",
+        "receipt_098_receipt_098_item_11": "571540572cfcf9ea723b5e2e9cc69b67ffc03f97"
+      }
+    },
+    "receipt_099": {
+      "source_file": "Notes/receipt_samples_100/receipt_099_gas_20231213.txt",
+      "receipt_hash": "aeef8a244a0721bbab20a2baf0ff2657d9d93688",
+      "chunk_ids": [
+        "receipt_099_receipt",
+        "receipt_099_receipt_099_item_1",
+        "receipt_099_receipt_099_item_2",
+        "receipt_099_receipt_099_item_3",
+        "receipt_099_receipt_099_item_4",
+        "receipt_099_receipt_099_item_5",
+        "receipt_099_receipt_099_item_6",
+        "receipt_099_receipt_099_item_7",
+        "receipt_099_receipt_099_item_8",
+        "receipt_099_receipt_099_item_9"
+      ],
+      "chunk_hashes": {
+        "receipt_099_receipt": "d3270e47eac486c3b58d091f4a559796cee6db8b",
+        "receipt_099_receipt_099_item_1": "225dd3d9c7da059952218179661a42f8c54cdc16",
+        "receipt_099_receipt_099_item_2": "79740e3f9801a0c91facb551564a04786268a92e",
+        "receipt_099_receipt_099_item_3": "d654e761ba94aa660cb8fdfad73d489c0e06912e",
+        "receipt_099_receipt_099_item_4": "2cf787826185dd2a36005017cef6e1601e912b37",
+        "receipt_099_receipt_099_item_5": "e6ebb91cacfb1aba28b6bdb5dc26886dfa4b8730",
+        "receipt_099_receipt_099_item_6": "8f308b6ffbd051754315dc13d601b92719f85c15",
+        "receipt_099_receipt_099_item_7": "08276b44c4af6f0d144195f89848409c3553b63c",
+        "receipt_099_receipt_099_item_8": "72df62ca256ee6b607162f0fac626c5205021a24",
+        "receipt_099_receipt_099_item_9": "02164448a78abb31ab29273377f13a163cb4a580"
+      }
+    },
+    "receipt_100": {
+      "source_file": "Notes/receipt_samples_100/receipt_100_gas_20240128.txt",
+      "receipt_hash": "4ad4b49fea7238fad50f0241cda11289dd70bcff",
+      "chunk_ids": [
+        "receipt_100_receipt",
+        "receipt_100_receipt_100_item_1",
+        "receipt_100_receipt_100_item_2",
+        "receipt_100_receipt_100_item_3",
+        "receipt_100_receipt_100_item_4",
+        "receipt_100_receipt_100_item_5",
+        "receipt_100_receipt_100_item_6",
+        "receipt_100_receipt_100_item_7",
+        "receipt_100_receipt_100_item_8",
+        "receipt_100_receipt_100_item_9",
+        "receipt_100_receipt_100_item_10",
+        "receipt_100_receipt_100_item_11"
+      ],
+      "chunk_hashes": {
+        "receipt_100_receipt": "d83c32c4ca017b380e70b1a7ac34fdba511f2826",
+        "receipt_100_receipt_100_item_1": "7dcaf8de80cd42ddba86a063066803544ce1776b",
+        "receipt_100_receipt_100_item_2": "255fd192c1c2f8d5c415e45c8875a75978a53164",
+        "receipt_100_receipt_100_item_3": "6c2041dff0e9e45f89768161802f2b9206d66415",
+        "receipt_100_receipt_100_item_4": "6599859156e23513b0b136bd27912fcfb8ea1960",
+        "receipt_100_receipt_100_item_5": "02fd135702c1297c4530e82a61311f33f0f4db3a",
+        "receipt_100_receipt_100_item_6": "b54dcc2e1c5cdb96710c226a239a055feb280c9d",
+        "receipt_100_receipt_100_item_7": "a7042266796ccea8a7db2f6145cb5be6c97cffcf",
+        "receipt_100_receipt_100_item_8": "bd38073897acdb8d91090ede224cf95e16937681",
+        "receipt_100_receipt_100_item_9": "8f024f4f300fdf97e45896a53ca0ca58c4211f3c",
+        "receipt_100_receipt_100_item_10": "f9663f008816573c9a6560552bfa26af75959b27",
+        "receipt_100_receipt_100_item_11": "2ee0e7ce1626501365e8b28120e4fbf990c86edf"
+      }
+    }
+  }
+}
