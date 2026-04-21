@@ -77,6 +77,12 @@ class QdrantStore:
             return int(response.count)
         return 0
 
+    def reset(self, vector_size: int) -> None:
+        collections = {c.name for c in self.client.get_collections().collections}
+        if self.collection_name in collections:
+            self.client.delete_collection(collection_name=self.collection_name)
+        self._ensure_collection(vector_size)
+
     def delete_by_receipt_ids(self, receipt_ids: list[str]) -> None:
         if not receipt_ids:
             return

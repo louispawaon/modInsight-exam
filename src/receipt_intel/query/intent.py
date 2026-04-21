@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import json
 import re
+from pathlib import Path
 
 from receipt_intel.config import get_settings
 from receipt_intel.models import QueryIntent
@@ -31,6 +33,57 @@ CATEGORY_SYNONYMS = {
     "hardware": "hardware",
     "gas": "gas",
 }
+
+PAYMENT_METHOD_ALIASES = {
+    "visa": "VISA",
+    "mastercard": "MASTERCARD",
+    "master card": "MASTERCARD",
+    "amex": "AMEX",
+    "american express": "AMEX",
+    "discover": "DISCOVER",
+    "debit": "DEBIT",
+    "cash": "CASH",
+    "apple pay": "APPLE PAY",
+}
+
+_CITY_CACHE: list[str] | None = None
+_DEFAULT_CITIES = [
+    "san francisco",
+    "oakland",
+    "berkeley",
+    "daly city",
+    "san mateo",
+    "palo alto",
+    "san jose",
+    "redwood city",
+    "south san francisco",
+    "mountain view",
+    "sunnyvale",
+    "fremont",
+    "hayward",
+]
+
+
+def _known_cities() -> list[str]:
+    global _CITY_CACHE
+    if _CITY_CACHE is not None:
+        return _CITY_CACHE
+    values: set[str] = set()
+    try:
+        parsed_path: Path = get_settings().parsed_output_path
+        if parsed_path.exists():
+            with parsed_path.open("r", encoding="utf-8") as handle:
+                for line in handle:
+                    payload = json.loads(line)
+                    city = payload.get("city")
+                    if isinstance(city, str) and city.strip():
+                        values.add(city.strip().lower())
+    except Exception:
+        values = set()
+    for fallback in _DEFAULT_CITIES:
+        values.add(fallback)
+    _CITY_CACHE = sorted(values, key=len, reverse=True)
+    return _CITY_CACHE
 
 
 def parse_query_intent(raw_query: str) -> QueryIntent:
@@ -105,10 +158,54 @@ def _parse_query_intent_rules(raw_query: str) -> QueryIntent:
     elif "per week" in text or "by week" in text or "weekly" in text:
         intent.group_by = "week"
 
+    if re.search(r"\b(per|each|every)\s+week\b", text) or "weekly average" in text or "average per week" in text:
+        intent.per_period = "week"
+    elif re.search(r"\b(per|each|every)\s+month\b", text) or "monthly average" in text or "average per month" in text:
+        intent.per_period = "month"
+    if intent.per_period and intent.query_type != "aggregation":
+        intent.query_type = "aggregation"
+        if not intent.aggregation:
+            intent.aggregation = "avg"
+
+    for city in _known_cities():
+        if re.search(rf"\b{re.escape(city)}\b", text):
+            intent.city = city
+            intent.cities = [city]
+            break
+
+    for alias, normalized in PAYMENT_METHOD_ALIASES.items():
+        if re.search(rf"\b{re.escape(alias)}\b", text):
+            intent.payment_method = normalized
+            intent.payment_methods = [normalized]
+            break
+
+    tip_match = re.search(r"tip(?:ped|ping)?\s*(?:of\s*)?(?:over|more than|above|greater than|>=?)\s*(\d+)%?", text)
+    if tip_match:
+        intent.min_tip_pct = float(tip_match.group(1))
+        if not intent.category:
+            intent.category = "restaurant"
+            intent.categories = ["restaurant"]
+    else:
+        tip_under = re.search(r"tip(?:ped|ping)?\s*(?:under|below|less than|<=?)\s*(\d+)%?", text)
+        if tip_under:
+            intent.max_tip_pct = float(tip_under.group(1))
+            if not intent.category:
+                intent.category = "restaurant"
+                intent.categories = ["restaurant"]
+
     concepts = detect_concepts(text)
     if concepts:
         concept_terms = expand_terms_for_concepts(concepts)
         intent.item_terms = _unique_list(intent.item_terms + concept_terms)
+        if "prescription" in concepts:
+            intent.require_prescription = True
+            if not intent.category:
+                intent.category = "pharmacy"
+                intent.categories = ["pharmacy"]
+        if "warranty" in concepts:
+            intent.require_warranty = True
+        if "loyalty" in concepts:
+            intent.require_loyalty = True
         if intent.parse_source == "rule":
             intent.parse_source = "rule_concept"
 
@@ -141,6 +238,27 @@ def _merge_intents(primary: QueryIntent, fallback: QueryIntent) -> QueryIntent:
         merged.start_date = fallback.start_date
     if not merged.end_date and fallback.end_date:
         merged.end_date = fallback.end_date
+
+    if not merged.city and fallback.city:
+        merged.city = fallback.city
+    if not merged.cities and fallback.cities:
+        merged.cities = fallback.cities
+    if not merged.payment_method and fallback.payment_method:
+        merged.payment_method = fallback.payment_method
+    if not merged.payment_methods and fallback.payment_methods:
+        merged.payment_methods = fallback.payment_methods
+    if merged.min_tip_pct is None and fallback.min_tip_pct is not None:
+        merged.min_tip_pct = fallback.min_tip_pct
+    if merged.max_tip_pct is None and fallback.max_tip_pct is not None:
+        merged.max_tip_pct = fallback.max_tip_pct
+    if not merged.per_period and fallback.per_period:
+        merged.per_period = fallback.per_period
+    if fallback.require_prescription:
+        merged.require_prescription = True
+    if fallback.require_warranty:
+        merged.require_warranty = True
+    if fallback.require_loyalty:
+        merged.require_loyalty = True
 
     if merged.merchants and not merged.merchant:
         merged.merchant = merged.merchants[0]

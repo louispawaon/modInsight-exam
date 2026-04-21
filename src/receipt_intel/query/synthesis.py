@@ -6,6 +6,7 @@ from qdrant_client.http import models as rest
 
 from receipt_intel.analytics import (
     aggregate_totals,
+    compute_period_rate,
     dedupe_receipt_rows,
     group_totals_by_field,
     group_totals_by_week,
@@ -27,16 +28,20 @@ def synthesize_answer(
         return f"No matching receipts found for filters: {filters}.", totals, facts
 
     if intent.query_type == "aggregation":
-        return _synthesize_aggregation(intent, evidence, totals, filters), totals, facts
-    if intent.item_terms:
+        return _synthesize_aggregation(intent, evidence, totals, filters, facts), totals, facts
+    if intent.item_terms and not (intent.require_prescription or intent.require_warranty or intent.require_loyalty):
         lexical_hits = [row for row in evidence if any(term in row["item_name"].lower() for term in intent.item_terms)]
         if not lexical_hits:
             return f"Not enough direct item evidence for concept filters: {filters}.", totals, facts
-    return _synthesize_listing(evidence, filters), totals, facts
+    return _synthesize_listing(intent, evidence, filters), totals, facts
 
 
 def _synthesize_aggregation(
-    intent: QueryIntent, evidence: list[dict[str, Any]], totals: dict[str, float], filters: str
+    intent: QueryIntent,
+    evidence: list[dict[str, Any]],
+    totals: dict[str, float],
+    filters: str,
+    facts: dict[str, Any],
 ) -> str:
     unique_receipts = {row["receipt_id"] for row in evidence if row["receipt_id"]}
     agg = intent.aggregation or "sum"
@@ -59,6 +64,16 @@ def _synthesize_aggregation(
             f"and average ${totals['avg']:.2f}."
         )
 
+    if intent.per_period in {"week", "month"}:
+        rate = compute_period_rate(evidence, intent.per_period)
+        facts["per_period"] = rate
+        if rate["buckets"]:
+            lines.append(
+                f"Average per {rate['period']}: ${rate['avg_per_bucket']:.2f} "
+                f"across {rate['buckets']} {rate['period']}s "
+                f"(total ${rate['total']:.2f})."
+            )
+
     grouped: dict[str, float] = {}
     if intent.group_by in {"merchant", "category"}:
         grouped = group_totals_by_field(evidence, intent.group_by)
@@ -74,13 +89,15 @@ def _synthesize_aggregation(
     return " ".join(lines)
 
 
-def _synthesize_listing(evidence: list[dict[str, Any]], filters: str) -> str:
+def _synthesize_listing(intent: QueryIntent, evidence: list[dict[str, Any]], filters: str) -> str:
     top_rows = evidence[:5]
     parts = []
+    show_tip = intent.min_tip_pct is not None or intent.max_tip_pct is not None
     for row in top_rows:
-        parts.append(
-            f"{row['receipt_id']} ({row['date']}) {row['merchant']} ${row['total_amount']:.2f}"
-        )
+        chunk = f"{row['receipt_id']} ({row['date']}) {row['merchant']} ${row['total_amount']:.2f}"
+        if show_tip and row.get("tip_pct") is not None:
+            chunk += f" tip {row['tip_pct']:.0f}% (${row.get('tip_amount', 0.0):.2f})"
+        parts.append(chunk)
     return f"Found {len(evidence)} evidence rows for filters ({filters}). Top matches: " + " | ".join(parts)
 
 
@@ -100,11 +117,29 @@ def _evidence_rows(payloads: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 "date": str(payload.get("date", "")),
                 "merchant": str(payload.get("merchant", "")),
                 "category": str(payload.get("category", "")),
+                "city": str(payload.get("city", "") or ""),
+                "state": str(payload.get("state", "") or ""),
+                "payment_method": str(payload.get("payment_method", "") or ""),
                 "item_name": str(payload.get("item_name", "")),
                 "total_amount": float(payload.get("total_amount", 0.0) or 0.0),
+                "tip_amount": _opt_float(payload.get("tip_amount")),
+                "tip_pct": _opt_float(payload.get("tip_pct")),
+                "tax_rate": _opt_float(payload.get("tax_rate")),
+                "has_prescription": bool(payload.get("has_prescription") or False),
+                "has_warranty": bool(payload.get("has_warranty") or False),
+                "loyalty_flag": bool(payload.get("loyalty_flag") or False),
             }
         )
     return rows
+
+
+def _opt_float(value: Any) -> float | None:
+    if value is None:
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
 
 
 def _payload(point: rest.ScoredPoint) -> dict[str, Any]:
@@ -145,12 +180,32 @@ def _describe_filters(intent: QueryIntent) -> str:
         parts.append(f"merchants={intent.merchants}")
     elif intent.merchant:
         parts.append(f"merchant={intent.merchant}")
+    if intent.cities:
+        parts.append(f"cities={intent.cities}")
+    elif intent.city:
+        parts.append(f"city={intent.city}")
+    if intent.payment_methods:
+        parts.append(f"payment_methods={intent.payment_methods}")
+    elif intent.payment_method:
+        parts.append(f"payment_method={intent.payment_method}")
     if intent.start_date or intent.end_date:
         parts.append(f"date={intent.start_date or '*'}..{intent.end_date or '*'}")
     if intent.min_total is not None:
         parts.append(f"min_total={intent.min_total}")
     if intent.max_total is not None:
         parts.append(f"max_total={intent.max_total}")
+    if intent.min_tip_pct is not None:
+        parts.append(f"min_tip_pct={intent.min_tip_pct}")
+    if intent.max_tip_pct is not None:
+        parts.append(f"max_tip_pct={intent.max_tip_pct}")
+    if intent.require_prescription:
+        parts.append("has_prescription=true")
+    if intent.require_warranty:
+        parts.append("has_warranty=true")
+    if intent.require_loyalty:
+        parts.append("loyalty_flag=true")
+    if intent.per_period:
+        parts.append(f"per_period={intent.per_period}")
     if intent.item_terms:
         parts.append(f"item_terms={intent.item_terms}")
     return ", ".join(parts) if parts else "none"

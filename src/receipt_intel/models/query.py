@@ -24,6 +24,24 @@ class QueryIntent(BaseModel):
     confidence: float | None = None
     parse_source: str = "rule"
     temporal: dict = Field(default_factory=dict)
+    city: str | None = None
+    cities: list[str] = Field(default_factory=list)
+    payment_method: str | None = None
+    payment_methods: list[str] = Field(default_factory=list)
+    min_tip_pct: float | None = None
+    max_tip_pct: float | None = None
+    per_period: str | None = None
+    require_prescription: bool = False
+    require_warranty: bool = False
+    require_loyalty: bool = False
+
+    @field_validator("per_period")
+    @classmethod
+    def validate_per_period(cls, value: str | None) -> str | None:
+        if value is None:
+            return None
+        allowed = {"week", "month"}
+        return value if value in allowed else None
 
     @field_validator("query_type")
     @classmethod

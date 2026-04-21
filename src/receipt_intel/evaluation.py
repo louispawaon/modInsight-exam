@@ -94,6 +94,76 @@ SCENARIOS = [
         "query": "give me the year ranges that is present in the receipts",
         "assertions": {"retrieval_mode": "metadata_shortcut", "answer_contains_any": ["2023", "2024"]},
     },
+    {
+        "name": "sf_receipts",
+        "tag": "location",
+        "query": "Find all San Francisco receipts",
+        "assertions": {
+            "min_receipts": 1,
+            "intent_field_equals": {"city": "san francisco"},
+        },
+    },
+    {
+        "name": "restaurants_tip_over_20",
+        "tag": "tip",
+        "query": "What restaurants did I tip over 20% at?",
+        "assertions": {
+            "intent_field_equals": {"min_tip_pct": 20.0, "category": "restaurant"},
+        },
+    },
+    {
+        "name": "coffee_per_week",
+        "tag": "rate",
+        "query": "How much do I spend on coffee per week?",
+        "assertions": {
+            "intent_field_equals": {"per_period": "week"},
+            "facts_path_nonempty": ["per_period", "avg_per_bucket"],
+        },
+    },
+    {
+        "name": "week_before_christmas",
+        "tag": "temporal",
+        "query": "Find receipts from the week before Christmas",
+        "assertions": {
+            "temporal_range_eq": {"start": "2023-12-18", "end": "2023-12-24"},
+        },
+    },
+    {
+        "name": "prescription_pickup",
+        "tag": "concept",
+        "query": "Show me all prescriptions I picked up",
+        "assertions": {
+            "intent_field_equals": {"require_prescription": True},
+            "evidence_any_flag": "has_prescription",
+        },
+    },
+    {
+        "name": "electronics_with_warranty",
+        "tag": "concept",
+        "query": "Show me electronics with warranties",
+        "assertions": {
+            "intent_field_equals": {"require_warranty": True},
+            "evidence_any_flag": "has_warranty",
+        },
+    },
+    {
+        "name": "loyalty_discounts",
+        "tag": "concept",
+        "query": "Find all loyalty discounts",
+        "assertions": {
+            "intent_field_equals": {"require_loyalty": True},
+            "allow_empty_or_contains": ["loyalty", "no matching", "0 receipts"],
+        },
+    },
+    {
+        "name": "visa_payments",
+        "tag": "payment",
+        "query": "Show me receipts paid with Visa",
+        "assertions": {
+            "min_receipts": 1,
+            "intent_field_equals": {"payment_method": "VISA"},
+        },
+    },
 ]
 
 

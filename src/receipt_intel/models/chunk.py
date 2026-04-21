@@ -8,5 +8,5 @@ class ReceiptChunk(BaseModel):
     receipt_id: str
     content: str
     chunk_type: str
-    metadata: dict[str, str | int | float | None] = Field(default_factory=dict)
+    metadata: dict[str, str | int | float | bool | None] = Field(default_factory=dict)
 

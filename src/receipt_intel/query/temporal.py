@@ -73,6 +73,16 @@ def normalize_temporal_resolution(raw_query: str, date_text: str | None = None) 
             notes=notes,
         )
 
+    if "week before christmas" in text:
+        start, end, clipped = _clamp_range("2023-12-18", "2023-12-24", bounds_min, bounds_max)
+        return TemporalResolution(
+            start,
+            end,
+            "event",
+            0.95,
+            parse_policy_used=f"{settings.date_parse_order}:{settings.date_ambiguity_strategy}",
+            notes=["clipped_to_dataset_bounds"] if clipped else [],
+        )
     if "christmas week" in text:
         start, end, clipped = _clamp_range("2023-12-18", "2023-12-25", bounds_min, bounds_max)
         return TemporalResolution(

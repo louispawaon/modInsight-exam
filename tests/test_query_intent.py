@@ -127,3 +127,56 @@ def test_parse_query_intent_detects_concept_terms(monkeypatch) -> None:
     intent = parse_query_intent("Find health-related purchases")
     assert "pharmacy" in intent.item_terms
 
+
+def test_parse_query_intent_extracts_city(monkeypatch) -> None:
+    monkeypatch.setattr("receipt_intel.query.intent.extract_intent_with_ollama", lambda *a, **k: None)
+    intent = parse_query_intent("Find all San Francisco receipts")
+    assert intent.city == "san francisco"
+    assert "san francisco" in intent.cities
+
+
+def test_parse_query_intent_extracts_payment_method(monkeypatch) -> None:
+    monkeypatch.setattr("receipt_intel.query.intent.extract_intent_with_ollama", lambda *a, **k: None)
+    intent = parse_query_intent("Show me receipts paid with Visa")
+    assert intent.payment_method == "VISA"
+
+
+def test_parse_query_intent_extracts_tip_threshold(monkeypatch) -> None:
+    monkeypatch.setattr("receipt_intel.query.intent.extract_intent_with_ollama", lambda *a, **k: None)
+    intent = parse_query_intent("What restaurants did I tip over 20% at?")
+    assert intent.min_tip_pct == 20.0
+    assert intent.category == "restaurant"
+
+
+def test_parse_query_intent_detects_per_period(monkeypatch) -> None:
+    monkeypatch.setattr("receipt_intel.query.intent.extract_intent_with_ollama", lambda *a, **k: None)
+    intent = parse_query_intent("How much do I spend on coffee per week?")
+    assert intent.per_period == "week"
+    assert intent.query_type == "aggregation"
+
+
+def test_parse_query_intent_warranty_concept_sets_flag(monkeypatch) -> None:
+    monkeypatch.setattr("receipt_intel.query.intent.extract_intent_with_ollama", lambda *a, **k: None)
+    intent = parse_query_intent("Show me electronics with warranties")
+    assert intent.require_warranty is True
+
+
+def test_parse_query_intent_prescription_concept_sets_flag_and_pharmacy(monkeypatch) -> None:
+    monkeypatch.setattr("receipt_intel.query.intent.extract_intent_with_ollama", lambda *a, **k: None)
+    intent = parse_query_intent("Show me all prescriptions I picked up")
+    assert intent.require_prescription is True
+    assert intent.category == "pharmacy"
+
+
+def test_parse_query_intent_loyalty_concept_sets_flag(monkeypatch) -> None:
+    monkeypatch.setattr("receipt_intel.query.intent.extract_intent_with_ollama", lambda *a, **k: None)
+    intent = parse_query_intent("Find all loyalty discounts")
+    assert intent.require_loyalty is True
+
+
+def test_parse_query_intent_week_before_christmas(monkeypatch) -> None:
+    monkeypatch.setattr("receipt_intel.query.intent.extract_intent_with_ollama", lambda *a, **k: None)
+    intent = parse_query_intent("Find receipts from the week before Christmas")
+    assert intent.start_date == "2023-12-18"
+    assert intent.end_date == "2023-12-24"
+

@@ -33,11 +33,16 @@ def save_parsed_receipts(receipts: list[Receipt], output_path: Path) -> None:
             handle.write(receipt.model_dump_json() + "\n")
 
 
-def ingest_and_index(settings: Settings) -> None:
+def ingest_and_index(settings: Settings, *, force: bool = False) -> None:
     configure_logging(settings.log_level)
     started = time.perf_counter()
     receipts = parse_receipts(settings)
     save_parsed_receipts(receipts, settings.parsed_output_path)
+
+    if force:
+        if settings.index_manifest_path.exists():
+            settings.index_manifest_path.unlink()
+
     manifest = load_index_manifest(settings.index_manifest_path)
     current_hashes = compute_receipt_hashes(receipts)
 
@@ -49,13 +54,18 @@ def ingest_and_index(settings: Settings) -> None:
     for receipt in changed_receipts:
         all_chunks.extend(build_chunks(receipt, strategy=settings.chunking_strategy))
 
+    vector_size = _resolve_vector_size(settings)
     store = QdrantStore(
         path=str(settings.qdrant_path),
         collection_name=settings.qdrant_collection,
-        vector_size=_resolve_vector_size(settings),
+        vector_size=vector_size,
     )
 
-    stale_receipt_ids = [r.receipt_id for r in changed_receipts] + deleted_receipts
+    if force:
+        store.reset(vector_size)
+        stale_receipt_ids: list[str] = []
+    else:
+        stale_receipt_ids = [r.receipt_id for r in changed_receipts] + deleted_receipts
     store.delete_by_receipt_ids(stale_receipt_ids)
 
     upserted_count = 0

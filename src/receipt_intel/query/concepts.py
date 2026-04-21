@@ -6,12 +6,49 @@ CONCEPT_TERMS: dict[str, list[str]] = {
     "health_related": ["pharmacy", "medicine", "medication", "vitamin", "supplement", "cvs"],
     "treats": ["candy", "ice cream", "dessert", "baked goods", "pastry", "snack"],
     "warranty": ["warranty", "protection plan", "extended coverage", "coverage"],
+    "prescription": ["rx", "prescription", "copay", "pharmacy pickup"],
+    "loyalty": ["loyalty", "rewards", "redcard", "member"],
+    "prepared_food": [
+        "burrito",
+        "sandwich",
+        "pizza",
+        "burger",
+        "salad",
+        "entree",
+        "meal",
+        "deli",
+        "prepared",
+    ],
 }
 
 CONCEPT_TRIGGERS: dict[str, list[str]] = {
     "health_related": ["health related", "health-related", "health", "wellness"],
     "treats": ["treat", "treats", "dessert", "snacks", "sweet"],
-    "warranty": ["warranty", "protection plan", "extended warranty", "extended coverage"],
+    "warranty": [
+        "warranty",
+        "warranties",
+        "protection plan",
+        "extended warranty",
+        "extended warranties",
+        "extended coverage",
+    ],
+    "prescription": [
+        "prescription",
+        "prescriptions",
+        "rx",
+        "picked up",
+        "pick up rx",
+        "copay",
+    ],
+    "loyalty": ["loyalty", "rewards", "redcard", "member savings", "loyalty discount", "loyalty discounts"],
+    "prepared_food": [
+        "prepared food",
+        "prepared meal",
+        "prepared meals",
+        "ready to eat",
+        "ready-to-eat",
+        "takeout",
+    ],
 }
 
 

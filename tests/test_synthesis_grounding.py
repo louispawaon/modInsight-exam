@@ -82,3 +82,60 @@ def test_listing_includes_applied_filters() -> None:
     answer, _, _ = synthesize_answer(intent, points)
     assert "Not enough direct item evidence" in answer
 
+
+def test_per_period_aggregation_emits_average_line() -> None:
+    intent = QueryIntent(
+        raw_query="coffee per week",
+        query_type="aggregation",
+        aggregation="avg",
+        per_period="week",
+    )
+    points = [
+        _point("receipt_001", "Blue Bottle", 12.0, "2023-12-04", "c1"),
+        _point("receipt_002", "Blue Bottle", 8.0, "2023-12-11", "c2"),
+        _point("receipt_003", "Blue Bottle", 14.0, "2023-12-18", "c3"),
+    ]
+    answer, _, facts = synthesize_answer(intent, points)
+    assert "Average per week" in answer
+    assert facts.get("per_period", {}).get("avg_per_bucket")
+    assert facts["per_period"]["buckets"] == 3
+
+
+def test_listing_with_tip_threshold_renders_tip_information() -> None:
+    intent = QueryIntent(
+        raw_query="restaurants tipped over 20%",
+        query_type="search",
+        category="restaurant",
+        min_tip_pct=20.0,
+    )
+    points = [
+        SimpleNamespace(
+            payload={
+                "receipt_id": "receipt_040",
+                "merchant": "Bistro",
+                "category": "restaurant",
+                "total_amount": 75.0,
+                "date": "2023-12-26",
+                "chunk_id": "c40",
+                "item_name": "",
+                "tip_amount": 15.0,
+                "tip_pct": 20.0,
+            }
+        )
+    ]
+    answer, _, _ = synthesize_answer(intent, points)
+    assert "tip 20%" in answer
+    assert "$15.00" in answer
+
+
+def test_loyalty_concept_with_no_evidence_returns_graceful_message() -> None:
+    intent = QueryIntent(
+        raw_query="find all loyalty discounts",
+        query_type="search",
+        require_loyalty=True,
+        item_terms=["loyalty", "rewards"],
+    )
+    answer, _, _ = synthesize_answer(intent, [])
+    assert "No matching receipts" in answer
+    assert "loyalty_flag=true" in answer
+
